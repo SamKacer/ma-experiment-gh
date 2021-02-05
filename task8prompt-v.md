@@ -1,4 +1,4 @@
-% Prompt for task 8
+# Prompt for task 8
 
 ## There is not a direct flight from X to Y. Find one way of getting from X to Y with connecting flights.
 

@@ -4,31 +4,31 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Charlie -- 10 hours --> Lima
-  Charlie -- 11 hours --> X-ray
-  Charlie -- 2 hours --> Whiskey
-  Charlie -- 8 hours --> Echo
-  Echo -- 8 hours --> Charlie
-  India -- 7 hours --> Whiskey
-  Lima -- 10 hours --> Charlie
-  Lima -- 2 hours --> Sierra
-  Lima -- 6 hours --> Yankee
-  Sierra -- 2 hours --> Lima
-  Sierra -- 4 hours --> Yankee
-  Whiskey -- 11 hours --> Yankee
-  Whiskey -- 7 hours --> India
-  Whiskey -- 7 hours --> X-ray
-  X-ray -- 7 hours --> Yankee
-  Yankee -- 11 hours --> Echo
-  Yankee -- 11 hours --> Whiskey
-  Yankee -- 4 hours --> Sierra
-  Yankee -- 6 hours --> Lima
-  Yankee -- 7 hours --> X-ray
+  Echo -- 2 hours --> Yankee
+  Echo -- 6 hours --> Foxtrot
+  Foxtrot -- 10 hours --> Quebec
+  Foxtrot -- 6 hours --> Echo
+  Foxtrot -- 8 hours --> Hotel
+  Hotel -- 11 hours --> India
+  Hotel -- 2 hours --> Romeo
+  Hotel -- 5 hours --> Yankee
+  Hotel -- 8 hours --> Foxtrot
+  India -- 11 hours --> Hotel
+  India -- 6 hours --> Romeo
+  India -- 8 hours --> Foxtrot
+  Juliett -- 7 hours --> Romeo
+  Quebec -- 10 hours --> Foxtrot
+  Quebec -- 4 hours --> Hotel
+  Quebec -- 5 hours --> Juliett
+  Romeo -- 4 hours --> Foxtrot
+  Romeo -- 6 hours --> India
+  Romeo -- 7 hours --> Juliett
+  Yankee -- 2 hours --> Echo
 </div>
 
 ---
 
-[continue to next prompt](./task5prompt.html)
+[continue to next prompt](./task5prompt-t.html)
 
 <!-- Required scripts for MermaidAccess -->
 <script src="https://combinatronics.com/mermaid-js/mermaid/release/8.8.4/dist/mermaid.min.js"></script>

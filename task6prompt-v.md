@@ -1,4 +1,4 @@
-% Prompt for task 6
+# Prompt for task 6
 
 ## Name two airports with no outgoing flights.
 

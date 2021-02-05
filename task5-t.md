@@ -4,31 +4,31 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Charlie -- 3 hours --> Zulu
-  Charlie -- 6 hours --> Whiskey
-  Golf -- 1 hours --> Yankee
-  Golf -- 5 hours --> Tango
-  Oscar -- 1 hours --> Tango
-  Oscar -- 6 hours --> Whiskey
-  Oscar -- 6 hours --> Yankee
-  Papa -- 1 hours --> Oscar
-  Papa -- 10 hours --> Golf
-  Tango -- 1 hours --> Oscar
-  Tango -- 6 hours --> Charlie
-  Whiskey -- 10 hours --> Tango
-  Whiskey -- 6 hours --> Charlie
-  Whiskey -- 6 hours --> Oscar
-  Whiskey -- 6 hours --> Papa
-  Whiskey -- 6 hours --> Zulu
-  Yankee -- 1 hours --> Golf
-  Zulu -- 3 hours --> Charlie
-  Zulu -- 6 hours --> Whiskey
-  Zulu -- 8 hours --> Yankee
+  Alfa -- 3 hours --> Foxtrot
+  Alfa -- 5 hours --> Delta
+  Delta -- 5 hours --> Alfa
+  Delta -- 5 hours --> November
+  Delta -- 8 hours --> Whiskey
+  Echo -- 11 hours --> Foxtrot
+  Echo -- 5 hours --> Lima
+  Foxtrot -- 10 hours --> Whiskey
+  Foxtrot -- 11 hours --> Echo
+  Foxtrot -- 4 hours --> November
+  Foxtrot -- 5 hours --> Alfa
+  Juliett -- 4 hours --> Whiskey
+  Juliett -- 8 hours --> Alfa
+  Lima -- 5 hours --> Echo
+  Lima -- 7 hours --> November
+  November -- 4 hours --> Foxtrot
+  November -- 5 hours --> Delta
+  Whiskey -- 10 hours --> Foxtrot
+  Whiskey -- 4 hours --> Juliett
+  Whiskey -- 8 hours --> Delta
 </div>
 
 ---
 
-[continue to next prompt](./task6prompt.html)
+[continue to next prompt](./task6prompt-t.html)
 
 <!-- Required scripts for MermaidAccess -->
 <script src="https://combinatronics.com/mermaid-js/mermaid/release/8.8.4/dist/mermaid.min.js"></script>

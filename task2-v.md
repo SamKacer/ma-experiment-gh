@@ -4,31 +4,31 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Golf -- 6 hours --> Sierra
-  Golf -- 7 hours --> Mike
-  Golf -- 7 hours --> Oscar
-  Golf -- 7 hours --> Uniform
-  Golf -- 8 hours --> Lima
-  Lima -- 10 hours --> Echo
-  Lima -- 2 hours --> Golf
-  Lima -- 9 hours --> Mike
-  Mike -- 4 hours --> Sierra
-  Mike -- 7 hours --> Oscar
-  Mike -- 9 hours --> Lima
-  Oscar -- 1 hours --> Uniform
-  Oscar -- 7 hours --> Mike
-  Sierra -- 11 hours --> Victor
-  Sierra -- 6 hours --> Golf
-  Sierra -- 8 hours --> Mike
-  Uniform -- 1 hours --> Oscar
-  Uniform -- 6 hours --> Sierra
-  Uniform -- 7 hours --> Golf
-  Victor -- 11 hours --> Sierra
+  Charlie -- 10 hours --> Foxtrot
+  Charlie -- 11 hours --> Hotel
+  Charlie -- 4 hours --> India
+  Foxtrot -- 8 hours --> Hotel
+  Golf -- 1 hours --> India
+  Golf -- 6 hours --> Charlie
+  Golf -- 8 hours --> Foxtrot
+  Hotel -- 10 hours --> Foxtrot
+  Hotel -- 3 hours --> Golf
+  Hotel -- 9 hours --> Papa
+  India -- 11 hours --> Foxtrot
+  India -- 11 hours --> Sierra
+  India -- 4 hours --> Charlie
+  India -- 7 hours --> Papa
+  Papa -- 3 hours --> Tango
+  Papa -- 8 hours --> Sierra
+  Sierra -- 11 hours --> India
+  Sierra -- 3 hours --> Tango
+  Tango -- 3 hours --> Papa
+  Tango -- 3 hours --> Sierra
 </div>
 
 ---
 
-[continue to next prompt](./task3prompt.html)
+[continue to next prompt](./task3prompt-v.html)
 
 <!-- Required scripts for MermaidAccess -->
 <script src="https://combinatronics.com/mermaid-js/mermaid/release/8.8.4/dist/mermaid.min.js"></script>

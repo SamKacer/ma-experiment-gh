@@ -1,4 +1,4 @@
-% Prompt for task 1
+# Prompt for task 1
 
 ## How many outgoing flights does X have?
 

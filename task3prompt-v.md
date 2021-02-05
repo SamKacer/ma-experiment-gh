@@ -1,4 +1,4 @@
-% Prompt for task 3
+# Prompt for task 3
 
 ## How many direct flights that take X hours are there?
 

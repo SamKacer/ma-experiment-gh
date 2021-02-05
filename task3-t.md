@@ -4,31 +4,31 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Juliett -- 10 hours --> Uniform
-  Juliett -- 2 hours --> Oscar
-  Juliett -- 5 hours --> Tango
-  Juliett -- 7 hours --> Romeo
-  Mike -- 10 hours --> Oscar
-  Mike -- 2 hours --> Romeo
-  Mike -- 4 hours --> Uniform
-  Mike -- 9 hours --> Yankee
-  Oscar -- 1 hours --> Sierra
-  Oscar -- 2 hours --> Juliett
-  Romeo -- 3 hours --> Mike
-  Romeo -- 7 hours --> Juliett
-  Tango -- 5 hours --> Juliett
-  Uniform -- 10 hours --> Juliett
-  Uniform -- 11 hours --> Sierra
-  Uniform -- 4 hours --> Mike
-  Uniform -- 5 hours --> Yankee
-  Uniform -- 7 hours --> Tango
-  Yankee -- 5 hours --> Uniform
-  Yankee -- 9 hours --> Mike
+  Delta -- 4 hours --> Whiskey
+  Delta -- 5 hours --> Golf
+  Delta -- 5 hours --> Sierra
+  Delta -- 8 hours --> November
+  Golf -- 5 hours --> Juliett
+  Juliett -- 11 hours --> November
+  Juliett -- 5 hours --> Golf
+  Juliett -- 6 hours --> Zulu
+  November -- 1 hours --> Sierra
+  November -- 2 hours --> Quebec
+  November -- 4 hours --> Juliett
+  November -- 5 hours --> Whiskey
+  November -- 8 hours --> Delta
+  Quebec -- 10 hours --> Golf
+  Quebec -- 2 hours --> November
+  Quebec -- 8 hours --> Zulu
+  Sierra -- 1 hours --> November
+  Sierra -- 6 hours --> Whiskey
+  Zulu -- 6 hours --> Juliett
+  Zulu -- 8 hours --> Quebec
 </div>
 
 ---
 
-[continue to next prompt](./task4prompt.html)
+[continue to next prompt](./task4prompt-t.html)
 
 <!-- Required scripts for MermaidAccess -->
 <script src="https://combinatronics.com/mermaid-js/mermaid/release/8.8.4/dist/mermaid.min.js"></script>

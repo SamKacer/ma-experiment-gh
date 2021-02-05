@@ -6,20 +6,20 @@ Here is a very simple example airport graph.
 
 <div class="mermaid-access">
 graph LR
-  Echo -- 1 hours --> Sierra
-  Echo -- 2 hours --> X-ray
-  Echo -- 8 hours --> November
-  Lima -- 4 hours --> Echo
-  Lima -- 4 hours --> November
-  November -- 8 hours --> Echo
-  Sierra -- 1 hours --> Echo
-  Sierra -- 5 hours --> Papa
-  X-ray -- 10 hours --> Echo
-  X-ray -- 5 hours --> November
+  Alfa -- 2 hours --> Hotel
+  Hotel -- 11 hours --> Mike
+  Hotel -- 7 hours --> Oscar
+  India -- 4 hours --> Whiskey
+  India -- 8 hours --> Mike
+  Mike -- 11 hours --> Hotel
+  Mike -- 7 hours --> Whiskey
+  Mike -- 8 hours --> India
+  Oscar -- 7 hours --> Hotel
+  Oscar -- 8 hours --> Whiskey
 </div>
 
 ---
-[next stage](./task1prompt.html)
+[next stage](./task1prompt-t.html)
 
 <!-- Required scripts for MermaidAccess -->
 <script src="https://combinatronics.com/mermaid-js/mermaid/release/8.8.4/dist/mermaid.min.js"></script>

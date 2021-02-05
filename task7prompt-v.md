@@ -1,4 +1,4 @@
-% Prompt for task 7
+# Prompt for task 7
 
 ## Name two airports with no incoming flights.
 
