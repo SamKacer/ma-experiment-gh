@@ -1,9 +1,10 @@
-% Welcome to the experiment!
+# Welcome to the experiment!
 
 Here is a very simple example airport graph.
 
 ## Airports practise graph
 
+<div></div>
 <div class="mermaid-access">
 graph LR
   Alfa -- 1 hours --> Romeo
