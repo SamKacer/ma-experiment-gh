@@ -4,6 +4,7 @@ Here is a very simple example airport graph.
 
 ## Airports practise graph
 
+<div></div>
 <div class="mermaid-access">
 graph LR
   Bravo -- 1 hours --> Zulu
