@@ -1,6 +1,6 @@
 # Prompt for task 1
 
-## How many outgoing flights does X have?
+## How many outgoing flights does Echo have?
 
 ---
 

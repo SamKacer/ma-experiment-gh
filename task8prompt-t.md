@@ -1,6 +1,6 @@
 # Prompt for task 8
 
-## There is not a direct flight from X to Y. Find one way of getting from X to Y with connecting flights.
+## There is not a direct flight from uniform to Oscar. Find one way of getting from Uniform to Oscar with connecting flights.
 
 ---
 
