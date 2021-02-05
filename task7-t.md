@@ -4,26 +4,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Alfa -- 1 hours --> Uniform
-  Alfa -- 10 hours --> Whiskey
-  Alfa -- 2 hours --> Bravo
-  Alfa -- 4 hours --> Charlie
-  Bravo -- 11 hours --> Papa
-  Bravo -- 2 hours --> Alfa
-  Bravo -- 8 hours --> Charlie
-  Charlie -- 1 hours --> Bravo
-  Charlie -- 4 hours --> Alfa
-  Charlie -- 5 hours --> Whiskey
-  Delta -- 2 hours --> Papa
-  India -- 7 hours --> Charlie
-  India -- 8 hours --> Whiskey
-  Papa -- 11 hours --> Uniform
-  Papa -- 2 hours --> Delta
-  Uniform -- 1 hours --> Alfa
-  Uniform -- 11 hours --> Bravo
-  Uniform -- 4 hours --> Whiskey
-  Whiskey -- 4 hours --> Papa
-  Whiskey -- 5 hours --> Charlie
+  Charlie -- 2 hours --> Delta
+  Delta -- 2 hours --> Charlie
+  Delta -- 4 hours --> Foxtrot
+  Delta -- 8 hours --> Lima
+  Foxtrot -- 4 hours --> Delta
+  Kilo -- 2 hours --> Lima
+  Kilo -- 7 hours --> Charlie
+  Kilo -- 8 hours --> Oscar
+  Lima -- 2 hours --> Kilo
+  Lima -- 5 hours --> November
+  Lima -- 5 hours --> Oscar
+  Lima -- 8 hours --> Delta
+  November -- 5 hours --> Lima
+  November -- 7 hours --> Foxtrot
+  Oscar -- 5 hours --> Lima
+  Oscar -- 8 hours --> Kilo
+  Oscar -- 8 hours --> November
+  Quebec -- 1 hours --> Foxtrot
+  Quebec -- 11 hours --> November
+  Quebec -- 2 hours --> Kilo
 </div>
 
 ---

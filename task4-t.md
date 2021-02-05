@@ -4,26 +4,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Echo -- 2 hours --> Yankee
-  Echo -- 6 hours --> Foxtrot
-  Foxtrot -- 10 hours --> Quebec
-  Foxtrot -- 6 hours --> Echo
-  Foxtrot -- 8 hours --> Hotel
-  Hotel -- 11 hours --> India
-  Hotel -- 2 hours --> Romeo
-  Hotel -- 5 hours --> Yankee
-  Hotel -- 8 hours --> Foxtrot
-  India -- 11 hours --> Hotel
-  India -- 6 hours --> Romeo
-  India -- 8 hours --> Foxtrot
-  Juliett -- 7 hours --> Romeo
-  Quebec -- 10 hours --> Foxtrot
-  Quebec -- 4 hours --> Hotel
-  Quebec -- 5 hours --> Juliett
-  Romeo -- 4 hours --> Foxtrot
-  Romeo -- 6 hours --> India
-  Romeo -- 7 hours --> Juliett
-  Yankee -- 2 hours --> Echo
+  Alfa -- 10 hours --> Delta
+  Alfa -- 11 hours --> Hotel
+  Alfa -- 8 hours --> Yankee
+  Charlie -- 2 hours --> Yankee
+  Charlie -- 3 hours --> Echo
+  Charlie -- 9 hours --> Whiskey
+  Echo -- 4 hours --> Hotel
+  Golf -- 10 hours --> Whiskey
+  Golf -- 7 hours --> Yankee
+  Golf -- 9 hours --> Hotel
+  Hotel -- 11 hours --> Alfa
+  Hotel -- 4 hours --> Echo
+  Hotel -- 7 hours --> Yankee
+  Hotel -- 9 hours --> Golf
+  Whiskey -- 10 hours --> Golf
+  Whiskey -- 4 hours --> Yankee
+  Whiskey -- 9 hours --> Charlie
+  Yankee -- 4 hours --> Whiskey
+  Yankee -- 7 hours --> Golf
+  Yankee -- 7 hours --> Hotel
 </div>
 
 ---

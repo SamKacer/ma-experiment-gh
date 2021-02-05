@@ -1,6 +1,6 @@
 # Prompt for task 8
 
-## There is not a direct flight from uniform to Oscar. Find one way of getting from Uniform to Oscar with connecting flights.
+## There is not a direct flight from November to Tango. Find one way of getting from November to Tango with connecting flights.
 
 ---
 

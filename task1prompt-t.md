@@ -1,6 +1,6 @@
 # Prompt for task 1
 
-## How many outgoing flights does kilo have?
+## How many outgoing flights does Lima have?
 
 ---
 

@@ -4,26 +4,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Charlie -- 6 hours --> Sierra
-  Hotel -- 3 hours --> Uniform
-  Hotel -- 6 hours --> Sierra
-  Hotel -- 9 hours --> Whiskey
-  Papa -- 1 hours --> Uniform
-  Papa -- 9 hours --> Sierra
-  Sierra -- 10 hours --> Papa
-  Sierra -- 11 hours --> Hotel
-  Sierra -- 4 hours --> Uniform
-  Sierra -- 6 hours --> Charlie
-  Sierra -- 7 hours --> Whiskey
-  Uniform -- 1 hours --> Papa
-  Uniform -- 8 hours --> Victor
-  Whiskey -- 1 hours --> X-ray
-  Whiskey -- 2 hours --> Papa
-  Whiskey -- 6 hours --> Charlie
-  Whiskey -- 7 hours --> Sierra
-  Whiskey -- 9 hours --> Hotel
-  X-ray -- 1 hours --> Whiskey
-  X-ray -- 2 hours --> Victor
+  Hotel -- 4 hours --> India
+  Hotel -- 8 hours --> Tango
+  India -- 3 hours --> Tango
+  India -- 4 hours --> Hotel
+  Juliett -- 8 hours --> Tango
+  Oscar -- 3 hours --> Uniform
+  Oscar -- 4 hours --> Foxtrot
+  Oscar -- 5 hours --> Tango
+  Tango -- 11 hours --> X-ray
+  Tango -- 2 hours --> Juliett
+  Tango -- 3 hours --> Foxtrot
+  Tango -- 3 hours --> India
+  Tango -- 3 hours --> Uniform
+  Tango -- 5 hours --> Oscar
+  Tango -- 8 hours --> Hotel
+  Uniform -- 2 hours --> Foxtrot
+  Uniform -- 3 hours --> Tango
+  X-ray -- 11 hours --> Foxtrot
+  X-ray -- 2 hours --> Juliett
+  X-ray -- 2 hours --> Tango
 </div>
 
 ---

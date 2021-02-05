@@ -1,6 +1,6 @@
 # Prompt for task 8
 
-## There is not a direct flight from India to Hotel. Find one way of getting from India to Hotel with connecting flights.
+## There is not a direct flight from Delta to Alfa. Find one way of getting from Delta to Alfa with connecting flights.
 
 ---
 

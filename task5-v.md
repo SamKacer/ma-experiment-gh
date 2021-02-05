@@ -4,26 +4,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Echo -- 1 hours --> Mike
-  Echo -- 10 hours --> Oscar
-  Echo -- 8 hours --> Juliett
-  Juliett -- 7 hours --> Mike
-  Juliett -- 8 hours --> Echo
-  Juliett -- 9 hours --> Lima
-  Kilo -- 2 hours --> Juliett
-  Kilo -- 3 hours --> Zulu
-  Lima -- 1 hours --> X-ray
-  Lima -- 9 hours --> Juliett
-  Mike -- 1 hours --> Echo
-  Mike -- 3 hours --> Juliett
-  Mike -- 3 hours --> Zulu
-  Mike -- 5 hours --> Oscar
-  Oscar -- 10 hours --> Echo
-  Oscar -- 5 hours --> Mike
-  X-ray -- 1 hours --> Lima
-  Zulu -- 3 hours --> Kilo
-  Zulu -- 3 hours --> Mike
-  Zulu -- 6 hours --> Lima
+  Alfa -- 8 hours --> Golf
+  Delta -- 10 hours --> Quebec
+  Delta -- 8 hours --> November
+  Golf -- 10 hours --> November
+  Golf -- 6 hours --> Delta
+  Golf -- 8 hours --> Alfa
+  Kilo -- 11 hours --> November
+  November -- 10 hours --> Whiskey
+  November -- 11 hours --> Kilo
+  November -- 3 hours --> Yankee
+  November -- 8 hours --> Delta
+  Quebec -- 10 hours --> Delta
+  Quebec -- 5 hours --> Whiskey
+  Quebec -- 9 hours --> Yankee
+  Whiskey -- 10 hours --> November
+  Whiskey -- 5 hours --> Quebec
+  Yankee -- 10 hours --> Kilo
+  Yankee -- 11 hours --> Delta
+  Yankee -- 3 hours --> November
+  Yankee -- 9 hours --> Quebec
 </div>
 
 ---

@@ -4,26 +4,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Alfa -- 11 hours --> India
-  Alfa -- 6 hours --> Zulu
-  Alfa -- 7 hours --> Tango
-  Hotel -- 4 hours --> Juliett
-  Hotel -- 8 hours --> Victor
-  Hotel -- 8 hours --> Zulu
-  India -- 11 hours --> Alfa
-  India -- 8 hours --> Romeo
-  Juliett -- 1 hours --> Zulu
-  Juliett -- 6 hours --> Romeo
-  Juliett -- 7 hours --> Tango
-  Romeo -- 6 hours --> Juliett
-  Romeo -- 8 hours --> India
-  Tango -- 1 hours --> Hotel
-  Tango -- 11 hours --> Juliett
-  Victor -- 2 hours --> Romeo
-  Victor -- 8 hours --> Hotel
-  Zulu -- 1 hours --> Juliett
-  Zulu -- 6 hours --> Alfa
-  Zulu -- 8 hours --> Hotel
+  Alfa -- 11 hours --> Quebec
+  Alfa -- 11 hours --> Tango
+  Alfa -- 2 hours --> Charlie
+  Charlie -- 1 hours --> Oscar
+  Charlie -- 2 hours --> Alfa
+  Charlie -- 2 hours --> Papa
+  Charlie -- 2 hours --> Quebec
+  Delta -- 2 hours --> Oscar
+  Delta -- 5 hours --> Tango
+  Delta -- 5 hours --> Yankee
+  Oscar -- 1 hours --> Charlie
+  Oscar -- 2 hours --> Delta
+  Oscar -- 8 hours --> Quebec
+  Papa -- 3 hours --> Tango
+  Quebec -- 11 hours --> Alfa
+  Quebec -- 7 hours --> Tango
+  Tango -- 10 hours --> Yankee
+  Tango -- 3 hours --> Papa
+  Tango -- 3 hours --> Quebec
+  Yankee -- 8 hours --> Quebec
 </div>
 
 ---

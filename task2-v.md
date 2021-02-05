@@ -4,26 +4,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Charlie -- 10 hours --> Foxtrot
-  Charlie -- 11 hours --> Hotel
-  Charlie -- 4 hours --> India
-  Foxtrot -- 8 hours --> Hotel
-  Golf -- 1 hours --> India
-  Golf -- 6 hours --> Charlie
-  Golf -- 8 hours --> Foxtrot
-  Hotel -- 10 hours --> Foxtrot
-  Hotel -- 3 hours --> Golf
-  Hotel -- 9 hours --> Papa
-  India -- 11 hours --> Foxtrot
-  India -- 11 hours --> Sierra
-  India -- 4 hours --> Charlie
-  India -- 7 hours --> Papa
-  Papa -- 3 hours --> Tango
-  Papa -- 8 hours --> Sierra
-  Sierra -- 11 hours --> India
-  Sierra -- 3 hours --> Tango
-  Tango -- 3 hours --> Papa
-  Tango -- 3 hours --> Sierra
+  Delta -- 6 hours --> Zulu
+  Delta -- 7 hours --> Kilo
+  Golf -- 5 hours --> Quebec
+  Golf -- 6 hours --> Kilo
+  Kilo -- 6 hours --> Golf
+  Kilo -- 7 hours --> Quebec
+  Kilo -- 8 hours --> Delta
+  November -- 10 hours --> Uniform
+  November -- 3 hours --> Quebec
+  November -- 4 hours --> Yankee
+  Quebec -- 3 hours --> November
+  Quebec -- 5 hours --> Golf
+  Quebec -- 6 hours --> Yankee
+  Quebec -- 7 hours --> Kilo
+  Quebec -- 8 hours --> Zulu
+  Uniform -- 10 hours --> November
+  Uniform -- 5 hours --> Yankee
+  Yankee -- 5 hours --> Uniform
+  Yankee -- 6 hours --> Quebec
+  Zulu -- 8 hours --> Quebec
 </div>
 
 ---

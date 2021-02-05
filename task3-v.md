@@ -4,26 +4,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Alfa -- 1 hours --> India
-  Charlie -- 10 hours --> Echo
-  Charlie -- 3 hours --> Papa
-  Charlie -- 7 hours --> India
-  Echo -- 10 hours --> Charlie
-  Echo -- 10 hours --> Golf
-  Echo -- 10 hours --> India
-  Echo -- 10 hours --> Kilo
-  Golf -- 1 hours --> Alfa
-  Golf -- 10 hours --> Echo
-  India -- 1 hours --> Alfa
-  India -- 10 hours --> Echo
-  India -- 11 hours --> Tango
-  India -- 3 hours --> Golf
-  India -- 6 hours --> Kilo
-  India -- 7 hours --> Charlie
-  Kilo -- 10 hours --> Echo
-  Kilo -- 8 hours --> Papa
-  Papa -- 8 hours --> Kilo
-  Tango -- 6 hours --> Alfa
+  Delta -- 10 hours --> Zulu
+  Delta -- 2 hours --> November
+  Delta -- 2 hours --> Romeo
+  Delta -- 7 hours --> Uniform
+  Lima -- 7 hours --> Delta
+  Lima -- 9 hours --> Uniform
+  Mike -- 11 hours --> Romeo
+  Mike -- 6 hours --> Uniform
+  November -- 9 hours --> Uniform
+  Romeo -- 11 hours --> Mike
+  Romeo -- 3 hours --> Delta
+  Romeo -- 3 hours --> Zulu
+  Uniform -- 6 hours --> Mike
+  Uniform -- 6 hours --> Yankee
+  Uniform -- 9 hours --> November
+  Yankee -- 10 hours --> Zulu
+  Yankee -- 6 hours --> November
+  Yankee -- 6 hours --> Uniform
+  Zulu -- 2 hours --> Romeo
+  Zulu -- 6 hours --> Yankee
 </div>
 
 ---

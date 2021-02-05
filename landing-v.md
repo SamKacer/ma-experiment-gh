@@ -7,16 +7,16 @@ Here is a very simple example airport graph.
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Bravo -- 1 hours --> Zulu
-  Bravo -- 10 hours --> Whiskey
-  Bravo -- 3 hours --> Tango
-  Bravo -- 8 hours --> Golf
-  Golf -- 11 hours --> Zulu
-  Romeo -- 4 hours --> Whiskey
-  Whiskey -- 7 hours --> Bravo
-  Whiskey -- 9 hours --> Zulu
-  Zulu -- 11 hours --> Golf
-  Zulu -- 9 hours --> Whiskey
+  Bravo -- 11 hours --> Foxtrot
+  Bravo -- 3 hours --> Quebec
+  Bravo -- 9 hours --> Yankee
+  Juliett -- 11 hours --> Yankee
+  Juliett -- 3 hours --> Sierra
+  Juliett -- 8 hours --> Foxtrot
+  Quebec -- 11 hours --> Sierra
+  Sierra -- 11 hours --> Quebec
+  Sierra -- 3 hours --> Juliett
+  Yankee -- 11 hours --> Juliett
 </div>
 
 ---

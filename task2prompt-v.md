@@ -1,6 +1,6 @@
 # Prompt for task 2
 
-## How many incoming flights does Foxtrot have?
+## How many incoming flights does Yankee have?
 
 ---
 

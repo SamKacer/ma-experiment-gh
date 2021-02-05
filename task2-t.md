@@ -4,26 +4,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Charlie -- 11 hours --> Uniform
-  Charlie -- 6 hours --> Golf
-  Golf -- 4 hours --> Uniform
-  Golf -- 6 hours --> Charlie
-  Golf -- 6 hours --> Romeo
-  Golf -- 8 hours --> Oscar
-  Lima -- 1 hours --> Romeo
-  Oscar -- 10 hours --> Charlie
-  Oscar -- 5 hours --> Papa
-  Papa -- 4 hours --> Quebec
-  Papa -- 5 hours --> Oscar
-  Quebec -- 1 hours --> Uniform
-  Quebec -- 2 hours --> Golf
-  Quebec -- 4 hours --> Papa
-  Romeo -- 1 hours --> Lima
-  Romeo -- 6 hours --> Quebec
-  Uniform -- 1 hours --> Quebec
-  Uniform -- 11 hours --> Charlie
-  Uniform -- 3 hours --> Papa
-  Uniform -- 9 hours --> Oscar
+  Delta -- 8 hours --> Lima
+  Delta -- 9 hours --> Uniform
+  Lima -- 10 hours --> November
+  November -- 2 hours --> Quebec
+  November -- 3 hours --> Lima
+  November -- 6 hours --> X-ray
+  Quebec -- 1 hours --> Yankee
+  Quebec -- 2 hours --> November
+  Quebec -- 4 hours --> X-ray
+  Quebec -- 7 hours --> Victor
+  Uniform -- 10 hours --> Yankee
+  Uniform -- 5 hours --> November
+  Uniform -- 7 hours --> Lima
+  Uniform -- 9 hours --> Delta
+  Victor -- 5 hours --> X-ray
+  Victor -- 6 hours --> Yankee
+  X-ray -- 5 hours --> Victor
+  X-ray -- 6 hours --> November
+  Yankee -- 1 hours --> Quebec
+  Yankee -- 7 hours --> Lima
 </div>
 
 ---
