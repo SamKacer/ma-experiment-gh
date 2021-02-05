@@ -1,4 +1,4 @@
-% Survey
+# Survey
 
 Please rate the following criteria on a scale from 1 to 20.
 ## Mental Demand

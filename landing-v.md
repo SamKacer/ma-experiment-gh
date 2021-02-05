@@ -4,19 +4,18 @@ Here is a very simple example airport graph.
 
 ## Airports practise graph
 
-<div></div>
 <div class="mermaid-access">
 graph LR
-  Alfa -- 1 hours --> Romeo
-  Lima -- 10 hours --> Hotel
-  Romeo -- 1 hours --> Alfa
-  Romeo -- 5 hours --> Lima
-  Romeo -- 9 hours --> Yankee
-  X-ray -- 11 hours --> Hotel
-  X-ray -- 11 hours --> Yankee
-  X-ray -- 8 hours --> Romeo
-  X-ray -- 9 hours --> Alfa
-  Yankee -- 3 hours --> Hotel
+  Bravo -- 1 hours --> Yankee
+  Bravo -- 3 hours --> Zulu
+  Hotel -- 10 hours --> Zulu
+  Hotel -- 8 hours --> Uniform
+  Sierra -- 4 hours --> Bravo
+  Sierra -- 7 hours --> Uniform
+  Sierra -- 9 hours --> Hotel
+  Uniform -- 8 hours --> Hotel
+  Zulu -- 10 hours --> Hotel
+  Zulu -- 11 hours --> Uniform
 </div>
 
 ---

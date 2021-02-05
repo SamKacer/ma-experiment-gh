@@ -1,27 +1,29 @@
-% Task 7
+# Task 7
 ## Airports graph #7
+
+<div></div>
 <div class="mermaid-access">
 graph LR
-  Alfa -- 11 hours --> Juliett
-  Alfa -- 9 hours --> Kilo
-  Bravo -- 2 hours --> India
-  Bravo -- 8 hours --> Juliett
+  Alfa -- 10 hours --> Delta
+  Alfa -- 10 hours --> November
+  Alfa -- 3 hours --> Golf
+  Alfa -- 5 hours --> Lima
+  Alfa -- 8 hours --> Charlie
+  Bravo -- 5 hours --> Lima
+  Charlie -- 8 hours --> Alfa
+  Delta -- 1 hours --> Charlie
   Delta -- 10 hours --> Bravo
-  Delta -- 3 hours --> Kilo
-  Delta -- 4 hours --> Papa
-  Delta -- 8 hours --> Juliett
-  India -- 1 hours --> Papa
-  India -- 2 hours --> Bravo
-  India -- 2 hours --> Kilo
-  Juliett -- 8 hours --> Bravo
-  Kilo -- 2 hours --> Alfa
-  Kilo -- 2 hours --> Bravo
-  Kilo -- 2 hours --> India
-  Kilo -- 3 hours --> Delta
-  Kilo -- 8 hours --> Juliett
-  Oscar -- 5 hours --> India
-  Oscar -- 9 hours --> Papa
-  Papa -- 1 hours --> India
+  Delta -- 4 hours --> Alfa
+  Golf -- 3 hours --> Alfa
+  Golf -- 5 hours --> November
+  Lima -- 5 hours --> Bravo
+  Lima -- 8 hours --> Alfa
+  November -- 5 hours --> Golf
+  November -- 8 hours --> Alfa
+  X-ray -- 1 hours --> Lima
+  X-ray -- 3 hours --> Golf
+  X-ray -- 5 hours --> Charlie
+  X-ray -- 8 hours --> Delta
 </div>
 
 ---

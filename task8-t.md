@@ -1,27 +1,29 @@
-% Task 8
+# Task 8
 ## Airports graph #8
+
+<div></div>
 <div class="mermaid-access">
 graph LR
-  Alfa -- 2 hours --> Oscar
-  Bravo -- 4 hours --> Victor
-  Kilo -- 4 hours --> Bravo
-  Kilo -- 6 hours --> Tango
-  Kilo -- 6 hours --> Victor
-  Kilo -- 6 hours --> Whiskey
-  Oscar -- 3 hours --> Victor
-  Oscar -- 6 hours --> Whiskey
-  Oscar -- 8 hours --> Tango
-  Sierra -- 9 hours --> Victor
-  Sierra -- 9 hours --> Whiskey
-  Tango -- 5 hours --> Sierra
-  Tango -- 6 hours --> Kilo
-  Tango -- 8 hours --> Oscar
-  Victor -- 3 hours --> Oscar
-  Victor -- 4 hours --> Bravo
-  Victor -- 7 hours --> Alfa
-  Victor -- 9 hours --> Sierra
-  Whiskey -- 4 hours --> Tango
-  Whiskey -- 9 hours --> Sierra
+  Charlie -- 1 hours --> India
+  Charlie -- 1 hours --> Victor
+  Charlie -- 4 hours --> Romeo
+  Charlie -- 8 hours --> Yankee
+  Foxtrot -- 7 hours --> Romeo
+  India -- 11 hours --> Charlie
+  India -- 11 hours --> Victor
+  India -- 2 hours --> Quebec
+  Juliett -- 7 hours --> Foxtrot
+  Juliett -- 8 hours --> Yankee
+  Quebec -- 11 hours --> Foxtrot
+  Quebec -- 6 hours --> India
+  Romeo -- 1 hours --> India
+  Romeo -- 10 hours --> Yankee
+  Romeo -- 3 hours --> Victor
+  Romeo -- 4 hours --> Quebec
+  Romeo -- 7 hours --> Foxtrot
+  Victor -- 11 hours --> India
+  Victor -- 3 hours --> Romeo
+  Yankee -- 8 hours --> Juliett
 </div>
 
 ---

@@ -1,27 +1,29 @@
-% Task 2
+# Task 2
 ## Airports graph #2
+
+<div></div>
 <div class="mermaid-access">
 graph LR
-  Echo -- 1 hours --> Juliett
-  Echo -- 10 hours --> Hotel
-  Echo -- 6 hours --> X-ray
-  Golf -- 2 hours --> X-ray
-  Golf -- 4 hours --> Juliett
-  Hotel -- 10 hours --> Echo
-  Hotel -- 2 hours --> X-ray
-  Hotel -- 3 hours --> Juliett
-  Juliett -- 11 hours --> Uniform
-  Juliett -- 4 hours --> Golf
-  Juliett -- 9 hours --> X-ray
-  Sierra -- 1 hours --> Hotel
-  Sierra -- 5 hours --> Alfa
-  Sierra -- 5 hours --> Golf
-  Uniform -- 10 hours --> Echo
+  Golf -- 6 hours --> Sierra
+  Golf -- 7 hours --> Mike
+  Golf -- 7 hours --> Oscar
+  Golf -- 7 hours --> Uniform
+  Golf -- 8 hours --> Lima
+  Lima -- 10 hours --> Echo
+  Lima -- 2 hours --> Golf
+  Lima -- 9 hours --> Mike
+  Mike -- 4 hours --> Sierra
+  Mike -- 7 hours --> Oscar
+  Mike -- 9 hours --> Lima
+  Oscar -- 1 hours --> Uniform
+  Oscar -- 7 hours --> Mike
+  Sierra -- 11 hours --> Victor
+  Sierra -- 6 hours --> Golf
+  Sierra -- 8 hours --> Mike
+  Uniform -- 1 hours --> Oscar
+  Uniform -- 6 hours --> Sierra
   Uniform -- 7 hours --> Golf
-  X-ray -- 2 hours --> Golf
-  X-ray -- 2 hours --> Hotel
-  X-ray -- 6 hours --> Echo
-  X-ray -- 9 hours --> Juliett
+  Victor -- 11 hours --> Sierra
 </div>
 
 ---

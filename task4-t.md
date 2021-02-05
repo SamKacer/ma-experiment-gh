@@ -1,27 +1,29 @@
-% Task 4
+# Task 4
 ## Airports graph #4
+
+<div></div>
 <div class="mermaid-access">
 graph LR
-  Charlie -- 10 hours --> Yankee
-  Charlie -- 5 hours --> Victor
-  Delta -- 1 hours --> Hotel
-  Echo -- 3 hours --> Foxtrot
-  Echo -- 6 hours --> Yankee
-  Foxtrot -- 2 hours --> Yankee
-  Foxtrot -- 3 hours --> Echo
-  Foxtrot -- 5 hours --> Charlie
-  Foxtrot -- 9 hours --> Hotel
-  Hotel -- 1 hours --> Delta
-  Hotel -- 9 hours --> Foxtrot
-  Quebec -- 1 hours --> Victor
-  Quebec -- 7 hours --> Yankee
-  Victor -- 11 hours --> Charlie
-  Victor -- 11 hours --> Quebec
-  Yankee -- 1 hours --> Delta
-  Yankee -- 10 hours --> Charlie
-  Yankee -- 2 hours --> Foxtrot
-  Yankee -- 6 hours --> Echo
-  Yankee -- 7 hours --> Quebec
+  Charlie -- 10 hours --> Lima
+  Charlie -- 11 hours --> X-ray
+  Charlie -- 2 hours --> Whiskey
+  Charlie -- 8 hours --> Echo
+  Echo -- 8 hours --> Charlie
+  India -- 7 hours --> Whiskey
+  Lima -- 10 hours --> Charlie
+  Lima -- 2 hours --> Sierra
+  Lima -- 6 hours --> Yankee
+  Sierra -- 2 hours --> Lima
+  Sierra -- 4 hours --> Yankee
+  Whiskey -- 11 hours --> Yankee
+  Whiskey -- 7 hours --> India
+  Whiskey -- 7 hours --> X-ray
+  X-ray -- 7 hours --> Yankee
+  Yankee -- 11 hours --> Echo
+  Yankee -- 11 hours --> Whiskey
+  Yankee -- 4 hours --> Sierra
+  Yankee -- 6 hours --> Lima
+  Yankee -- 7 hours --> X-ray
 </div>
 
 ---

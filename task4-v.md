@@ -1,27 +1,29 @@
-% Task 4
+# Task 4
 ## Airports graph #4
+
+<div></div>
 <div class="mermaid-access">
 graph LR
-  Charlie -- 3 hours --> Mike
-  Charlie -- 3 hours --> Victor
-  Charlie -- 7 hours --> Foxtrot
-  Charlie -- 9 hours --> Golf
-  Charlie -- 9 hours --> X-ray
-  Foxtrot -- 7 hours --> Charlie
-  Foxtrot -- 9 hours --> Zulu
-  Golf -- 10 hours --> X-ray
-  Golf -- 5 hours --> Victor
-  Golf -- 9 hours --> Charlie
-  Mike -- 11 hours --> Victor
-  Mike -- 11 hours --> X-ray
-  Sierra -- 11 hours --> Zulu
-  Victor -- 11 hours --> Mike
-  Victor -- 3 hours --> Charlie
-  X-ray -- 2 hours --> Golf
-  X-ray -- 2 hours --> Sierra
-  X-ray -- 9 hours --> Charlie
-  Zulu -- 11 hours --> Sierra
-  Zulu -- 9 hours --> Foxtrot
+  Charlie -- 1 hours --> Papa
+  Charlie -- 2 hours --> Yankee
+  Charlie -- 5 hours --> Golf
+  Golf -- 6 hours --> Yankee
+  Lima -- 7 hours --> Charlie
+  Lima -- 8 hours --> Yankee
+  Mike -- 5 hours --> Lima
+  Mike -- 5 hours --> Papa
+  Papa -- 1 hours --> Charlie
+  Papa -- 11 hours --> Sierra
+  Sierra -- 1 hours --> Golf
+  Sierra -- 11 hours --> Papa
+  Sierra -- 8 hours --> Yankee
+  Sierra -- 9 hours --> Whiskey
+  Whiskey -- 6 hours --> Papa
+  Whiskey -- 9 hours --> Sierra
+  Yankee -- 2 hours --> Charlie
+  Yankee -- 6 hours --> Golf
+  Yankee -- 8 hours --> Lima
+  Yankee -- 8 hours --> Sierra
 </div>
 
 ---

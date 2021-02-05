@@ -1,27 +1,29 @@
-% Task 3
+# Task 3
 ## Airports graph #3
+
+<div></div>
 <div class="mermaid-access">
 graph LR
-  Echo -- 1 hours --> Romeo
-  Echo -- 3 hours --> Papa
-  Echo -- 7 hours --> Oscar
-  Mike -- 1 hours --> Victor
-  Mike -- 10 hours --> Papa
-  Mike -- 8 hours --> Romeo
-  Oscar -- 7 hours --> Echo
-  Oscar -- 7 hours --> Zulu
-  Papa -- 10 hours --> Mike
-  Papa -- 2 hours --> Victor
-  Papa -- 3 hours --> Echo
-  Papa -- 5 hours --> Zulu
-  Romeo -- 1 hours --> Echo
-  Romeo -- 1 hours --> Zulu
-  Romeo -- 8 hours --> Mike
-  Victor -- 1 hours --> Mike
-  Victor -- 3 hours --> Papa
-  Zulu -- 1 hours --> Romeo
-  Zulu -- 3 hours --> Sierra
-  Zulu -- 7 hours --> Oscar
+  Charlie -- 10 hours --> Foxtrot
+  Charlie -- 3 hours --> Zulu
+  Delta -- 11 hours --> Charlie
+  Delta -- 3 hours --> Zulu
+  Delta -- 5 hours --> India
+  Delta -- 7 hours --> Echo
+  Echo -- 5 hours --> Foxtrot
+  Echo -- 5 hours --> Sierra
+  Echo -- 9 hours --> Zulu
+  Foxtrot -- 1 hours --> Charlie
+  Foxtrot -- 1 hours --> India
+  Foxtrot -- 6 hours --> Delta
+  India -- 1 hours --> Foxtrot
+  India -- 5 hours --> Papa
+  Papa -- 2 hours --> Zulu
+  Papa -- 5 hours --> India
+  Sierra -- 2 hours --> Papa
+  Zulu -- 2 hours --> Delta
+  Zulu -- 2 hours --> Papa
+  Zulu -- 3 hours --> Charlie
 </div>
 
 ---

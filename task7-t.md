@@ -1,27 +1,29 @@
-% Task 7
+# Task 7
 ## Airports graph #7
+
+<div></div>
 <div class="mermaid-access">
 graph LR
-  Alfa -- 2 hours --> Sierra
-  Alfa -- 8 hours --> Mike
-  India -- 4 hours --> Alfa
-  India -- 5 hours --> Romeo
-  India -- 9 hours --> Sierra
-  Kilo -- 5 hours --> Alfa
-  Kilo -- 7 hours --> Mike
-  Mike -- 1 hours --> Victor
-  Mike -- 10 hours --> India
-  Mike -- 11 hours --> Romeo
-  Mike -- 7 hours --> Kilo
-  Mike -- 8 hours --> Alfa
-  Mike -- 9 hours --> Sierra
-  Romeo -- 11 hours --> Mike
-  Romeo -- 5 hours --> Victor
-  Sierra -- 2 hours --> Alfa
-  Uniform -- 10 hours --> Kilo
-  Uniform -- 11 hours --> Sierra
-  Uniform -- 3 hours --> Victor
-  Uniform -- 4 hours --> Alfa
+  Charlie -- 10 hours --> Sierra
+  Charlie -- 7 hours --> Whiskey
+  Foxtrot -- 2 hours --> Golf
+  Foxtrot -- 6 hours --> Victor
+  Golf -- 10 hours --> Whiskey
+  Golf -- 2 hours --> Foxtrot
+  Golf -- 3 hours --> Victor
+  Golf -- 5 hours --> Oscar
+  Oscar -- 9 hours --> Victor
+  Sierra -- 10 hours --> Charlie
+  Victor -- 10 hours --> Sierra
+  Victor -- 8 hours --> Golf
+  Victor -- 9 hours --> Oscar
+  Whiskey -- 5 hours --> Foxtrot
+  Whiskey -- 6 hours --> Golf
+  Whiskey -- 7 hours --> Charlie
+  Zulu -- 1 hours --> Charlie
+  Zulu -- 4 hours --> Oscar
+  Zulu -- 6 hours --> Golf
+  Zulu -- 7 hours --> Sierra
 </div>
 
 ---

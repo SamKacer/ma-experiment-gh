@@ -1,4 +1,4 @@
-% Welcome to the experiment!
+# Welcome to the experiment!
 
 Here is a very simple example airport graph.
 
@@ -6,16 +6,16 @@ Here is a very simple example airport graph.
 
 <div class="mermaid-access">
 graph LR
-  Charlie -- 1 hours --> Bravo
-  Delta -- 6 hours --> Uniform
-  Delta -- 8 hours --> Charlie
-  Kilo -- 5 hours --> Quebec
-  Quebec -- 5 hours --> Kilo
-  Quebec -- 7 hours --> Bravo
-  Quebec -- 9 hours --> Charlie
-  Quebec -- 9 hours --> Uniform
-  Uniform -- 8 hours --> Kilo
-  Uniform -- 9 hours --> Quebec
+  Echo -- 1 hours --> Sierra
+  Echo -- 2 hours --> X-ray
+  Echo -- 8 hours --> November
+  Lima -- 4 hours --> Echo
+  Lima -- 4 hours --> November
+  November -- 8 hours --> Echo
+  Sierra -- 1 hours --> Echo
+  Sierra -- 5 hours --> Papa
+  X-ray -- 10 hours --> Echo
+  X-ray -- 5 hours --> November
 </div>
 
 ---

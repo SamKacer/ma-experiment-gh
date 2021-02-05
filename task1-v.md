@@ -1,27 +1,29 @@
-% Task 1
+# Task 1
 ## Airports graph #1
+
+<div></div>
 <div class="mermaid-access">
 graph LR
-  Bravo -- 1 hours --> Charlie
-  Bravo -- 6 hours --> Romeo
-  Charlie -- 1 hours --> Bravo
-  Delta -- 1 hours --> Romeo
-  Delta -- 11 hours --> Mike
-  Foxtrot -- 2 hours --> Delta
-  Foxtrot -- 8 hours --> Quebec
-  Juliett -- 4 hours --> Romeo
-  Juliett -- 9 hours --> Bravo
-  Mike -- 11 hours --> Charlie
-  Mike -- 11 hours --> Delta
-  Mike -- 3 hours --> Romeo
-  Quebec -- 1 hours --> Romeo
-  Quebec -- 8 hours --> Foxtrot
-  Romeo -- 1 hours --> Quebec
-  Romeo -- 3 hours --> Mike
-  Romeo -- 4 hours --> Juliett
-  Romeo -- 5 hours --> Foxtrot
-  Romeo -- 6 hours --> Bravo
-  Romeo -- 7 hours --> Delta
+  Alfa -- 6 hours --> Foxtrot
+  Alfa -- 9 hours --> India
+  Bravo -- 2 hours --> Victor
+  Bravo -- 7 hours --> India
+  Echo -- 5 hours --> Tango
+  Echo -- 7 hours --> Kilo
+  Foxtrot -- 11 hours --> Kilo
+  Foxtrot -- 11 hours --> Victor
+  Foxtrot -- 4 hours --> Tango
+  Foxtrot -- 6 hours --> Alfa
+  India -- 1 hours --> Kilo
+  India -- 7 hours --> Bravo
+  Kilo -- 1 hours --> Tango
+  Kilo -- 7 hours --> Echo
+  Tango -- 1 hours --> Kilo
+  Tango -- 10 hours --> Alfa
+  Tango -- 4 hours --> Foxtrot
+  Tango -- 9 hours --> India
+  Victor -- 10 hours --> Kilo
+  Victor -- 2 hours --> Bravo
 </div>
 
 ---

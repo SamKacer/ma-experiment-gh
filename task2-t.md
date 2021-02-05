@@ -1,27 +1,29 @@
-% Task 2
+# Task 2
 ## Airports graph #2
+
+<div></div>
 <div class="mermaid-access">
 graph LR
-  Charlie -- 4 hours --> Golf
-  Charlie -- 6 hours --> Mike
-  Charlie -- 6 hours --> Zulu
-  Charlie -- 7 hours --> India
-  Charlie -- 7 hours --> Romeo
-  Golf -- 3 hours --> Romeo
-  Golf -- 7 hours --> Mike
-  Hotel -- 4 hours --> India
-  Hotel -- 5 hours --> Mike
-  India -- 2 hours --> Mike
-  India -- 4 hours --> Romeo
-  Mike -- 8 hours --> Quebec
-  Mike -- 9 hours --> Hotel
-  Quebec -- 5 hours --> Zulu
-  Romeo -- 2 hours --> Golf
-  Romeo -- 4 hours --> India
-  Romeo -- 7 hours --> Charlie
-  Zulu -- 1 hours --> Charlie
-  Zulu -- 11 hours --> Golf
-  Zulu -- 5 hours --> Quebec
+  Charlie -- 3 hours --> Mike
+  Charlie -- 3 hours --> Zulu
+  Charlie -- 5 hours --> Yankee
+  Charlie -- 9 hours --> Papa
+  Charlie -- 9 hours --> Quebec
+  Mike -- 11 hours --> Papa
+  Mike -- 3 hours --> Charlie
+  Mike -- 4 hours --> Yankee
+  Mike -- 5 hours --> Romeo
+  Papa -- 11 hours --> Mike
+  Papa -- 9 hours --> Charlie
+  Quebec -- 9 hours --> Charlie
+  Romeo -- 5 hours --> Mike
+  Romeo -- 8 hours --> Zulu
+  Uniform -- 9 hours --> Papa
+  Yankee -- 1 hours --> Quebec
+  Yankee -- 4 hours --> Papa
+  Yankee -- 5 hours --> Charlie
+  Zulu -- 5 hours --> Charlie
+  Zulu -- 8 hours --> Romeo
 </div>
 
 ---

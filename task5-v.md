@@ -1,27 +1,29 @@
-% Task 5
+# Task 5
 ## Airports graph #5
+
+<div></div>
 <div class="mermaid-access">
 graph LR
-  Echo -- 2 hours --> Mike
-  Echo -- 4 hours --> Sierra
-  Foxtrot -- 1 hours --> Golf
-  Foxtrot -- 10 hours --> Sierra
-  Foxtrot -- 11 hours --> Lima
-  Foxtrot -- 2 hours --> Papa
-  Golf -- 1 hours --> Foxtrot
-  Lima -- 10 hours --> Mike
-  Lima -- 10 hours --> Papa
-  Lima -- 5 hours --> Sierra
-  Lima -- 7 hours --> Foxtrot
-  Oscar -- 11 hours --> Papa
-  Papa -- 2 hours --> Foxtrot
-  Papa -- 2 hours --> Mike
-  Papa -- 4 hours --> Echo
-  Sierra -- 10 hours --> Foxtrot
-  Sierra -- 10 hours --> Oscar
-  Sierra -- 2 hours --> Papa
-  Sierra -- 4 hours --> Echo
-  Sierra -- 5 hours --> Lima
+  Bravo -- 5 hours --> Yankee
+  Bravo -- 7 hours --> Zulu
+  Hotel -- 1 hours --> Zulu
+  Hotel -- 5 hours --> Yankee
+  India -- 6 hours --> Juliett
+  India -- 8 hours --> Lima
+  India -- 9 hours --> Yankee
+  India -- 9 hours --> Zulu
+  Juliett -- 6 hours --> India
+  Juliett -- 7 hours --> Hotel
+  Lima -- 3 hours --> Bravo
+  Lima -- 8 hours --> India
+  Tango -- 4 hours --> Zulu
+  Yankee -- 5 hours --> Bravo
+  Yankee -- 5 hours --> Hotel
+  Yankee -- 9 hours --> India
+  Zulu -- 1 hours --> Hotel
+  Zulu -- 4 hours --> Tango
+  Zulu -- 9 hours --> India
+  Zulu -- 9 hours --> Juliett
 </div>
 
 ---

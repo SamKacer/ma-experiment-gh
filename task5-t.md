@@ -1,27 +1,29 @@
-% Task 5
+# Task 5
 ## Airports graph #5
+
+<div></div>
 <div class="mermaid-access">
 graph LR
-  India -- 1 hours --> Victor
-  India -- 9 hours --> Mike
-  Kilo -- 1 hours --> Oscar
-  Kilo -- 2 hours --> Tango
-  Mike -- 11 hours --> Romeo
-  Mike -- 5 hours --> Victor
-  Oscar -- 10 hours --> India
-  Oscar -- 10 hours --> Yankee
-  Oscar -- 5 hours --> Tango
-  Romeo -- 11 hours --> Mike
-  Romeo -- 9 hours --> Yankee
-  Tango -- 1 hours --> Yankee
-  Tango -- 2 hours --> Kilo
-  Tango -- 4 hours --> Victor
-  Tango -- 5 hours --> Oscar
-  Victor -- 1 hours --> India
-  Victor -- 5 hours --> Mike
-  Yankee -- 1 hours --> Tango
-  Yankee -- 10 hours --> Oscar
-  Yankee -- 9 hours --> Romeo
+  Charlie -- 3 hours --> Zulu
+  Charlie -- 6 hours --> Whiskey
+  Golf -- 1 hours --> Yankee
+  Golf -- 5 hours --> Tango
+  Oscar -- 1 hours --> Tango
+  Oscar -- 6 hours --> Whiskey
+  Oscar -- 6 hours --> Yankee
+  Papa -- 1 hours --> Oscar
+  Papa -- 10 hours --> Golf
+  Tango -- 1 hours --> Oscar
+  Tango -- 6 hours --> Charlie
+  Whiskey -- 10 hours --> Tango
+  Whiskey -- 6 hours --> Charlie
+  Whiskey -- 6 hours --> Oscar
+  Whiskey -- 6 hours --> Papa
+  Whiskey -- 6 hours --> Zulu
+  Yankee -- 1 hours --> Golf
+  Zulu -- 3 hours --> Charlie
+  Zulu -- 6 hours --> Whiskey
+  Zulu -- 8 hours --> Yankee
 </div>
 
 ---

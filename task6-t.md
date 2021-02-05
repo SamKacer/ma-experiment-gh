@@ -1,27 +1,29 @@
-% Task 6
+# Task 6
 ## Airports graph #6
+
+<div></div>
 <div class="mermaid-access">
 graph LR
-  Hotel -- 4 hours --> Romeo
-  Hotel -- 5 hours --> X-ray
-  India -- 2 hours --> Hotel
-  India -- 8 hours --> November
-  India -- 8 hours --> X-ray
-  November -- 3 hours --> Romeo
-  November -- 8 hours --> India
-  Tango -- 4 hours --> Victor
-  Tango -- 4 hours --> X-ray
-  Victor -- 11 hours --> November
-  Victor -- 4 hours --> Tango
-  Victor -- 5 hours --> Romeo
-  Victor -- 8 hours --> India
-  Victor -- 9 hours --> X-ray
-  X-ray -- 1 hours --> Bravo
-  X-ray -- 4 hours --> Tango
-  X-ray -- 5 hours --> Hotel
-  X-ray -- 8 hours --> India
-  X-ray -- 9 hours --> Romeo
-  X-ray -- 9 hours --> Victor
+  Charlie -- 7 hours --> Alfa
+  Charlie -- 7 hours --> Zulu
+  Hotel -- 10 hours --> Kilo
+  Hotel -- 6 hours --> Whiskey
+  Hotel -- 7 hours --> Alfa
+  Kilo -- 1 hours --> Zulu
+  Kilo -- 10 hours --> Alfa
+  Kilo -- 2 hours --> Hotel
+  Kilo -- 6 hours --> Whiskey
+  Kilo -- 8 hours --> Quebec
+  Mike -- 1 hours --> Whiskey
+  Mike -- 7 hours --> Alfa
+  Mike -- 9 hours --> Zulu
+  Quebec -- 11 hours --> Charlie
+  Quebec -- 9 hours --> Whiskey
+  Whiskey -- 1 hours --> Mike
+  Whiskey -- 9 hours --> Quebec
+  Zulu -- 6 hours --> Whiskey
+  Zulu -- 7 hours --> Charlie
+  Zulu -- 9 hours --> Mike
 </div>
 
 ---

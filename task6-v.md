@@ -1,27 +1,29 @@
-% Task 6
+# Task 6
 ## Airports graph #6
+
+<div></div>
 <div class="mermaid-access">
 graph LR
-  Delta -- 5 hours --> India
-  Delta -- 8 hours --> Echo
-  Echo -- 7 hours --> Papa
-  Echo -- 8 hours --> Delta
-  India -- 11 hours --> Quebec
-  India -- 4 hours --> Papa
-  India -- 5 hours --> Delta
-  India -- 9 hours --> X-ray
-  Lima -- 9 hours --> Echo
-  Mike -- 1 hours --> X-ray
-  Mike -- 11 hours --> Quebec
-  Mike -- 2 hours --> Lima
-  Mike -- 6 hours --> Papa
-  Quebec -- 1 hours --> Papa
-  Quebec -- 11 hours --> Mike
-  Quebec -- 8 hours --> Delta
-  X-ray -- 2 hours --> Echo
-  X-ray -- 3 hours --> Mike
-  X-ray -- 5 hours --> Quebec
-  X-ray -- 6 hours --> India
+  Foxtrot -- 6 hours --> Zulu
+  Foxtrot -- 9 hours --> Hotel
+  Foxtrot -- 9 hours --> Papa
+  Golf -- 11 hours --> Tango
+  Golf -- 8 hours --> Papa
+  Hotel -- 5 hours --> Yankee
+  Hotel -- 8 hours --> Mike
+  Hotel -- 9 hours --> Foxtrot
+  Mike -- 1 hours --> Hotel
+  Mike -- 3 hours --> Tango
+  Tango -- 1 hours --> Foxtrot
+  Tango -- 11 hours --> Golf
+  Tango -- 4 hours --> Yankee
+  Tango -- 6 hours --> Mike
+  Yankee -- 4 hours --> Tango
+  Yankee -- 6 hours --> Mike
+  Yankee -- 6 hours --> Papa
+  Yankee -- 8 hours --> Hotel
+  Zulu -- 5 hours --> Golf
+  Zulu -- 7 hours --> Papa
 </div>
 
 ---
