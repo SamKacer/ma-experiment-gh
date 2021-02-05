@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>Task 4</title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<div id="header">
+<h1 class="title">Task 4</h1>
+</div>
+<h2>Airports graph #4</h2>
+<div class="mermaid-access">
+graph LR
+  Charlie -- 10 hours --> Yankee
+  Charlie -- 5 hours --> Victor
+  Delta -- 1 hours --> Hotel
+  Echo -- 3 hours --> Foxtrot
+  Echo -- 6 hours --> Yankee
+  Foxtrot -- 2 hours --> Yankee
+  Foxtrot -- 3 hours --> Echo
+  Foxtrot -- 5 hours --> Charlie
+  Foxtrot -- 9 hours --> Hotel
+  Hotel -- 1 hours --> Delta
+  Hotel -- 9 hours --> Foxtrot
+  Quebec -- 1 hours --> Victor
+  Quebec -- 7 hours --> Yankee
+  Victor -- 11 hours --> Charlie
+  Victor -- 11 hours --> Quebec
+  Yankee -- 1 hours --> Delta
+  Yankee -- 10 hours --> Charlie
+  Yankee -- 2 hours --> Foxtrot
+  Yankee -- 6 hours --> Echo
+  Yankee -- 7 hours --> Quebec
+</div>
+<hr />
+<p><a href="./task5prompt.html">continue to next prompt</a></p>
+<!-- Required scripts for MermaidAccess -->
+<script src="https://combinatronics.com/mermaid-js/mermaid/release/8.8.4/dist/mermaid.min.js"></script>
+<script src="mermaid-access-elm.js"></script>
+<script src="mermaid-access.js"></script>
+<script>
+mermaidAccess.go(mermaidAccess.textMode, mermaidAccess.displayAccessibleOnly)
+</script>
+</body>
+</html>

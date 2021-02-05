@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>Welcome to the experiment!</title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<div id="header">
+<h1 class="title">Welcome to the experiment!</h1>
+</div>
+<p>Here is a very simple example airport graph.</p>
+<h2>Airports practise graph</h2>
+<div class="mermaid-access">
+graph LR
+  Alfa -- 1 hours --> Romeo
+  Lima -- 10 hours --> Hotel
+  Romeo -- 1 hours --> Alfa
+  Romeo -- 5 hours --> Lima
+  Romeo -- 9 hours --> Yankee
+  X-ray -- 11 hours --> Hotel
+  X-ray -- 11 hours --> Yankee
+  X-ray -- 8 hours --> Romeo
+  X-ray -- 9 hours --> Alfa
+  Yankee -- 3 hours --> Hotel
+</div>
+<hr />
+<p><a href="./task1prompt.html">next stage</a></p>
+<!-- Required scripts for MermaidAccess -->
+<script src="https://combinatronics.com/mermaid-js/mermaid/release/8.8.4/dist/mermaid.min.js"></script>
+<script src="mermaid-access-elm.js"></script>
+<script src="mermaid-access.js"></script>
+<script>
+    mermaidAccess.go(mermaidAccess.viewerMode, mermaidAccess.displayAccessibleOnly)
+</script>
+</body>
+</html>
