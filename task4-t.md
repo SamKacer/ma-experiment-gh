@@ -4,26 +4,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Alfa -- 10 hours --> Delta
-  Alfa -- 11 hours --> Hotel
-  Alfa -- 8 hours --> Yankee
-  Charlie -- 2 hours --> Yankee
-  Charlie -- 3 hours --> Echo
-  Charlie -- 9 hours --> Whiskey
-  Echo -- 4 hours --> Hotel
-  Golf -- 10 hours --> Whiskey
-  Golf -- 7 hours --> Yankee
-  Golf -- 9 hours --> Hotel
-  Hotel -- 11 hours --> Alfa
-  Hotel -- 4 hours --> Echo
-  Hotel -- 7 hours --> Yankee
-  Hotel -- 9 hours --> Golf
-  Whiskey -- 10 hours --> Golf
-  Whiskey -- 4 hours --> Yankee
-  Whiskey -- 9 hours --> Charlie
-  Yankee -- 4 hours --> Whiskey
-  Yankee -- 7 hours --> Golf
-  Yankee -- 7 hours --> Hotel
+  Charlie -- 2 hours --> Tango
+  Charlie -- 4 hours --> Romeo
+  Juliett -- 10 hours --> Kilo
+  Juliett -- 9 hours --> Tango
+  Kilo -- 10 hours --> Juliett
+  Kilo -- 3 hours --> Romeo
+  Kilo -- 8 hours --> Papa
+  Papa -- 11 hours --> Tango
+  Papa -- 2 hours --> Uniform
+  Papa -- 8 hours --> Charlie
+  Papa -- 8 hours --> Kilo
+  Romeo -- 11 hours --> Papa
+  Romeo -- 2 hours --> Tango
+  Romeo -- 3 hours --> Kilo
+  Romeo -- 4 hours --> Charlie
+  Romeo -- 5 hours --> Juliett
+  Tango -- 11 hours --> Papa
+  Tango -- 2 hours --> Charlie
+  Tango -- 9 hours --> Juliett
+  Whiskey -- 7 hours --> Kilo
 </div>
 
 ---

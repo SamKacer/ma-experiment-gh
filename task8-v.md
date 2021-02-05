@@ -4,26 +4,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Alfa -- 11 hours --> Quebec
-  Alfa -- 11 hours --> Tango
-  Alfa -- 2 hours --> Charlie
-  Charlie -- 1 hours --> Oscar
-  Charlie -- 2 hours --> Alfa
-  Charlie -- 2 hours --> Papa
-  Charlie -- 2 hours --> Quebec
-  Delta -- 2 hours --> Oscar
-  Delta -- 5 hours --> Tango
-  Delta -- 5 hours --> Yankee
-  Oscar -- 1 hours --> Charlie
-  Oscar -- 2 hours --> Delta
-  Oscar -- 8 hours --> Quebec
-  Papa -- 3 hours --> Tango
-  Quebec -- 11 hours --> Alfa
-  Quebec -- 7 hours --> Tango
-  Tango -- 10 hours --> Yankee
-  Tango -- 3 hours --> Papa
-  Tango -- 3 hours --> Quebec
-  Yankee -- 8 hours --> Quebec
+  Alfa -- 4 hours --> Delta
+  Alfa -- 6 hours --> Uniform
+  Bravo -- 1 hours --> Uniform
+  Bravo -- 6 hours --> Sierra
+  Delta -- 3 hours --> Yankee
+  Delta -- 4 hours --> Alfa
+  Delta -- 6 hours --> Sierra
+  Oscar -- 6 hours --> Sierra
+  Oscar -- 7 hours --> Uniform
+  Quebec -- 1 hours --> Yankee
+  Quebec -- 10 hours --> Alfa
+  Sierra -- 11 hours --> Uniform
+  Sierra -- 6 hours --> Delta
+  Sierra -- 6 hours --> Oscar
+  Uniform -- 11 hours --> Sierra
+  Uniform -- 6 hours --> Yankee
+  Uniform -- 7 hours --> Oscar
+  Yankee -- 3 hours --> Delta
+  Yankee -- 6 hours --> Oscar
+  Yankee -- 6 hours --> Uniform
 </div>
 
 ---

@@ -4,26 +4,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Delta -- 10 hours --> Oscar
-  Delta -- 8 hours --> Yankee
-  Lima -- 2 hours --> Romeo
-  Lima -- 4 hours --> Zulu
-  Lima -- 5 hours --> Oscar
-  Oscar -- 10 hours --> Delta
-  Oscar -- 3 hours --> Victor
-  Oscar -- 5 hours --> Lima
-  Romeo -- 10 hours --> Zulu
-  Romeo -- 11 hours --> Yankee
-  Romeo -- 2 hours --> Lima
-  Romeo -- 3 hours --> Victor
-  Victor -- 3 hours --> Oscar
-  Whiskey -- 3 hours --> Delta
-  Yankee -- 2 hours --> Whiskey
-  Yankee -- 5 hours --> Victor
-  Yankee -- 8 hours --> Delta
-  Zulu -- 10 hours --> Romeo
-  Zulu -- 11 hours --> Whiskey
-  Zulu -- 4 hours --> Lima
+  Juliett -- 11 hours --> Tango
+  Lima -- 10 hours --> Victor
+  Lima -- 11 hours --> Uniform
+  Oscar -- 10 hours --> Victor
+  Oscar -- 3 hours --> Tango
+  Oscar -- 5 hours --> Zulu
+  Tango -- 3 hours --> Oscar
+  Tango -- 8 hours --> Juliett
+  Uniform -- 1 hours --> X-ray
+  Uniform -- 5 hours --> Zulu
+  Victor -- 10 hours --> Lima
+  Victor -- 2 hours --> Juliett
+  Victor -- 4 hours --> Zulu
+  X-ray -- 1 hours --> Lima
+  X-ray -- 11 hours --> Victor
+  X-ray -- 2 hours --> Oscar
+  X-ray -- 9 hours --> Uniform
+  Zulu -- 4 hours --> Victor
+  Zulu -- 5 hours --> Uniform
+  Zulu -- 8 hours --> Oscar
 </div>
 
 ---

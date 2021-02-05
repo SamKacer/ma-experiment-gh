@@ -4,26 +4,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Charlie -- 2 hours --> Tango
-  Delta -- 2 hours --> Zulu
-  Delta -- 6 hours --> Mike
-  Echo -- 3 hours --> Mike
-  Echo -- 6 hours --> Whiskey
-  Juliett -- 11 hours --> Zulu
-  Juliett -- 4 hours --> Mike
-  Juliett -- 5 hours --> Charlie
-  Juliett -- 7 hours --> Tango
-  Mike -- 1 hours --> Zulu
-  Mike -- 3 hours --> Echo
-  Mike -- 3 hours --> Tango
-  Mike -- 6 hours --> Charlie
-  Mike -- 6 hours --> Delta
-  Tango -- 3 hours --> Mike
-  Tango -- 9 hours --> Whiskey
-  Whiskey -- 6 hours --> Echo
-  Whiskey -- 9 hours --> Tango
-  Zulu -- 1 hours --> Mike
-  Zulu -- 11 hours --> Juliett
+  Charlie -- 1 hours --> Foxtrot
+  Charlie -- 11 hours --> Whiskey
+  Foxtrot -- 1 hours --> Charlie
+  Foxtrot -- 5 hours --> Yankee
+  Foxtrot -- 6 hours --> Romeo
+  Foxtrot -- 9 hours --> Hotel
+  Hotel -- 11 hours --> Yankee
+  Hotel -- 9 hours --> Foxtrot
+  Quebec -- 5 hours --> Yankee
+  Romeo -- 1 hours --> Foxtrot
+  Romeo -- 1 hours --> Sierra
+  Sierra -- 1 hours --> Hotel
+  Sierra -- 1 hours --> Romeo
+  Sierra -- 11 hours --> Charlie
+  Sierra -- 8 hours --> Whiskey
+  Whiskey -- 11 hours --> Charlie
+  Whiskey -- 7 hours --> Quebec
+  Yankee -- 11 hours --> Hotel
+  Yankee -- 5 hours --> Foxtrot
+  Yankee -- 5 hours --> Quebec
 </div>
 
 ---

@@ -4,26 +4,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Bravo -- 10 hours --> Golf
-  Bravo -- 2 hours --> Charlie
-  Bravo -- 7 hours --> Lima
-  Charlie -- 1 hours --> Golf
-  Charlie -- 1 hours --> Romeo
-  Charlie -- 2 hours --> India
-  Charlie -- 4 hours --> Lima
-  Charlie -- 8 hours --> Papa
-  Golf -- 10 hours --> Bravo
-  India -- 10 hours --> Bravo
-  India -- 5 hours --> Golf
-  Lima -- 11 hours --> Zulu
-  Lima -- 4 hours --> Charlie
-  Lima -- 7 hours --> Bravo
-  Lima -- 9 hours --> Papa
-  Papa -- 7 hours --> Golf
-  Papa -- 8 hours --> India
-  Papa -- 9 hours --> Lima
-  Romeo -- 1 hours --> Charlie
-  Zulu -- 8 hours --> Romeo
+  Charlie -- 10 hours --> Oscar
+  Charlie -- 11 hours --> Victor
+  Charlie -- 7 hours --> India
+  Golf -- 10 hours --> Oscar
+  India -- 1 hours --> Tango
+  India -- 7 hours --> Charlie
+  Kilo -- 10 hours --> Mike
+  Kilo -- 9 hours --> India
+  Mike -- 3 hours --> Charlie
+  Mike -- 8 hours --> Kilo
+  Oscar -- 10 hours --> Charlie
+  Oscar -- 10 hours --> Golf
+  Oscar -- 4 hours --> India
+  Oscar -- 8 hours --> Tango
+  Tango -- 2 hours --> Mike
+  Tango -- 5 hours --> Victor
+  Tango -- 8 hours --> Oscar
+  Victor -- 11 hours --> Charlie
+  Victor -- 5 hours --> Golf
+  Victor -- 5 hours --> Tango
 </div>
 
 ---

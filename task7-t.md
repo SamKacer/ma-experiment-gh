@@ -4,26 +4,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Charlie -- 2 hours --> Delta
-  Delta -- 2 hours --> Charlie
-  Delta -- 4 hours --> Foxtrot
-  Delta -- 8 hours --> Lima
-  Foxtrot -- 4 hours --> Delta
-  Kilo -- 2 hours --> Lima
-  Kilo -- 7 hours --> Charlie
-  Kilo -- 8 hours --> Oscar
-  Lima -- 2 hours --> Kilo
-  Lima -- 5 hours --> November
-  Lima -- 5 hours --> Oscar
-  Lima -- 8 hours --> Delta
-  November -- 5 hours --> Lima
-  November -- 7 hours --> Foxtrot
-  Oscar -- 5 hours --> Lima
-  Oscar -- 8 hours --> Kilo
-  Oscar -- 8 hours --> November
-  Quebec -- 1 hours --> Foxtrot
-  Quebec -- 11 hours --> November
-  Quebec -- 2 hours --> Kilo
+  Alfa -- 2 hours --> Hotel
+  Alfa -- 2 hours --> Mike
+  Alfa -- 5 hours --> Charlie
+  Alfa -- 8 hours --> Lima
+  Charlie -- 5 hours --> Alfa
+  Charlie -- 8 hours --> Lima
+  Echo -- 4 hours --> Lima
+  Hotel -- 2 hours --> Alfa
+  Hotel -- 7 hours --> Mike
+  Hotel -- 8 hours --> Lima
+  Lima -- 4 hours --> Echo
+  Lima -- 8 hours --> Alfa
+  Lima -- 8 hours --> Charlie
+  Lima -- 8 hours --> Hotel
+  Mike -- 2 hours --> Alfa
+  Oscar -- 3 hours --> Charlie
+  Oscar -- 7 hours --> Echo
+  Sierra -- 11 hours --> Lima
+  Sierra -- 2 hours --> Hotel
+  Sierra -- 5 hours --> Echo
 </div>
 
 ---

@@ -1,6 +1,6 @@
 # Prompt for task 8
 
-## There is not a direct flight from November to Tango. Find one way of getting from November to Tango with connecting flights.
+## There is not a direct flight from Delta to Romeo. Find one way of getting from Delta to Romeo with connecting flights.
 
 ---
 

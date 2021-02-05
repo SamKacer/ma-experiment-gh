@@ -4,26 +4,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Delta -- 8 hours --> Lima
-  Delta -- 9 hours --> Uniform
-  Lima -- 10 hours --> November
-  November -- 2 hours --> Quebec
-  November -- 3 hours --> Lima
-  November -- 6 hours --> X-ray
-  Quebec -- 1 hours --> Yankee
-  Quebec -- 2 hours --> November
-  Quebec -- 4 hours --> X-ray
-  Quebec -- 7 hours --> Victor
-  Uniform -- 10 hours --> Yankee
-  Uniform -- 5 hours --> November
-  Uniform -- 7 hours --> Lima
-  Uniform -- 9 hours --> Delta
-  Victor -- 5 hours --> X-ray
-  Victor -- 6 hours --> Yankee
-  X-ray -- 5 hours --> Victor
-  X-ray -- 6 hours --> November
-  Yankee -- 1 hours --> Quebec
-  Yankee -- 7 hours --> Lima
+  Delta -- 1 hours --> X-ray
+  Delta -- 11 hours --> Oscar
+  Delta -- 6 hours --> Hotel
+  Delta -- 9 hours --> Whiskey
+  Hotel -- 6 hours --> Delta
+  Hotel -- 8 hours --> Juliett
+  Juliett -- 10 hours --> Whiskey
+  November -- 6 hours --> Delta
+  Oscar -- 11 hours --> Delta
+  Oscar -- 4 hours --> November
+  Oscar -- 5 hours --> Sierra
+  Oscar -- 6 hours --> X-ray
+  Oscar -- 8 hours --> Hotel
+  Sierra -- 10 hours --> Oscar
+  Sierra -- 8 hours --> Juliett
+  Whiskey -- 6 hours --> November
+  Whiskey -- 7 hours --> X-ray
+  Whiskey -- 9 hours --> Delta
+  X-ray -- 1 hours --> Delta
+  X-ray -- 2 hours --> Sierra
 </div>
 
 ---

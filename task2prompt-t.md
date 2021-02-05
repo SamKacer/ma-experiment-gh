@@ -1,6 +1,6 @@
 # Prompt for task 2
 
-## How many incoming flights does Victor have?
+## How many incoming flights does November have?
 
 ---
 

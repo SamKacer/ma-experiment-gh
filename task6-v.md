@@ -5,25 +5,25 @@
 <div class="mermaid-access">
 graph LR
   Charlie -- 2 hours --> Lima
-  Charlie -- 4 hours --> Mike
-  Charlie -- 9 hours --> Echo
-  Echo -- 2 hours --> Lima
-  Echo -- 4 hours --> Tango
-  Echo -- 6 hours --> Mike
-  Echo -- 9 hours --> Charlie
-  Foxtrot -- 10 hours --> Charlie
+  Charlie -- 2 hours --> Mike
   Foxtrot -- 5 hours --> Delta
+  Foxtrot -- 7 hours --> Charlie
+  Foxtrot -- 9 hours --> Tango
   Lima -- 11 hours --> Foxtrot
   Lima -- 2 hours --> Charlie
-  Lima -- 2 hours --> Echo
-  Mike -- 3 hours --> Tango
-  Mike -- 4 hours --> Charlie
-  Mike -- 6 hours --> Echo
+  Lima -- 2 hours --> Tango
+  Lima -- 8 hours --> Romeo
+  Mike -- 10 hours --> Charlie
+  Mike -- 6 hours --> Delta
   Mike -- 9 hours --> Romeo
-  Romeo -- 4 hours --> Delta
+  Romeo -- 3 hours --> Delta
+  Romeo -- 8 hours --> Tango
   Romeo -- 9 hours --> Mike
-  Tango -- 1 hours --> Charlie
-  Tango -- 3 hours --> Mike
+  Tango -- 1 hours --> Echo
+  Tango -- 2 hours --> Lima
+  Tango -- 3 hours --> Delta
+  Tango -- 8 hours --> Romeo
+  Tango -- 9 hours --> Foxtrot
 </div>
 
 ---

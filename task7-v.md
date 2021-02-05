@@ -4,26 +4,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Delta -- 1 hours --> Foxtrot
-  Delta -- 8 hours --> Uniform
-  Echo -- 10 hours --> Quebec
-  Echo -- 4 hours --> Foxtrot
-  Echo -- 5 hours --> November
-  Echo -- 6 hours --> Uniform
-  Foxtrot -- 11 hours --> November
-  Foxtrot -- 3 hours --> Delta
-  Foxtrot -- 4 hours --> Echo
-  Mike -- 1 hours --> Foxtrot
+  Delta -- 5 hours --> Uniform
+  Foxtrot -- 11 hours --> Yankee
+  Foxtrot -- 5 hours --> Uniform
+  Golf -- 1 hours --> Kilo
+  Golf -- 11 hours --> Yankee
+  Golf -- 3 hours --> Uniform
+  Kilo -- 1 hours --> Golf
+  Kilo -- 6 hours --> Delta
   November -- 11 hours --> Foxtrot
-  November -- 5 hours --> Echo
-  November -- 7 hours --> Mike
-  Quebec -- 10 hours --> Echo
-  Tango -- 4 hours --> Delta
-  Tango -- 4 hours --> Uniform
-  Tango -- 5 hours --> Mike
-  Uniform -- 6 hours --> Foxtrot
-  Uniform -- 8 hours --> Delta
-  Uniform -- 8 hours --> Quebec
+  Tango -- 1 hours --> Kilo
+  Tango -- 11 hours --> Delta
+  Uniform -- 4 hours --> Golf
+  Uniform -- 4 hours --> Yankee
+  Uniform -- 5 hours --> Delta
+  Uniform -- 5 hours --> Foxtrot
+  Yankee -- 11 hours --> Foxtrot
+  Yankee -- 11 hours --> Golf
+  Yankee -- 4 hours --> Uniform
+  Yankee -- 5 hours --> Delta
+  Yankee -- 7 hours --> Kilo
 </div>
 
 ---

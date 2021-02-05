@@ -1,6 +1,6 @@
 # Prompt for task 3
 
-## How many direct flights that take 4 hours are there?
+## How many direct flights that take 7 hours are there?
 
 ---
 
