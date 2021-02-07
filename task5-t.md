@@ -1,6 +1,10 @@
-# Task 5
-## Airports graph #5
+# task 5
 
+## Name two pairs of airports where there is a flight going from the first airport to the second, but there is not a flight going from the second to the first.
+
+---
+
+## Airports graph #5
 <div></div>
 <div class="mermaid-access">
 graph LR
@@ -28,7 +32,7 @@ graph LR
 
 ---
 
-[continue to next prompt](./task6prompt-t.html)
+[continue to next task](./task6-t.html)
 
 <!-- Required scripts for MermaidAccess -->
 <script src="https://combinatronics.com/mermaid-js/mermaid/release/8.8.4/dist/mermaid.min.js"></script>
@@ -37,4 +41,3 @@ graph LR
 <script>
 mermaidAccess.go(mermaidAccess.textMode, mermaidAccess.displayAccessibleOnly)
 </script>
-    

@@ -1,6 +1,10 @@
-# Task 6
-## Airports graph #6
+# task 6
 
+## Name two airports with no outgoing flights.
+
+---
+
+## Airports graph #6
 <div></div>
 <div class="mermaid-access">
 graph LR
@@ -28,7 +32,7 @@ graph LR
 
 ---
 
-[continue to next prompt](./task7prompt-t.html)
+[continue to next task](./task7-t.html)
 
 <!-- Required scripts for MermaidAccess -->
 <script src="https://combinatronics.com/mermaid-js/mermaid/release/8.8.4/dist/mermaid.min.js"></script>
@@ -37,4 +41,3 @@ graph LR
 <script>
 mermaidAccess.go(mermaidAccess.textMode, mermaidAccess.displayAccessibleOnly)
 </script>
-    

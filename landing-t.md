@@ -20,7 +20,7 @@ graph LR
 </div>
 
 ---
-[next stage](./task1prompt-t.html)
+[next stage](./task1-t.html)
 
 <!-- Required scripts for MermaidAccess -->
 <script src="https://combinatronics.com/mermaid-js/mermaid/release/8.8.4/dist/mermaid.min.js"></script>

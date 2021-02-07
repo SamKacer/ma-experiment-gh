@@ -1,6 +1,10 @@
-# Task 1
-## Airports graph #1
+# task 1
 
+## How many outgoing flights does Lima have?
+
+---
+
+## Airports graph #1
 <div></div>
 <div class="mermaid-access">
 graph LR
@@ -28,7 +32,7 @@ graph LR
 
 ---
 
-[continue to next prompt](./task2prompt-v.html)
+[continue to next task](./task2-v.html)
 
 <!-- Required scripts for MermaidAccess -->
 <script src="https://combinatronics.com/mermaid-js/mermaid/release/8.8.4/dist/mermaid.min.js"></script>
@@ -37,4 +41,3 @@ graph LR
 <script>
 mermaidAccess.go(mermaidAccess.viewerMode, mermaidAccess.displayAccessibleOnly)
 </script>
-    

@@ -1,6 +1,10 @@
-# Task 3
-## Airports graph #3
+# task 3
 
+## How many direct flights that take 7 hours are there?
+
+---
+
+## Airports graph #3
 <div></div>
 <div class="mermaid-access">
 graph LR
@@ -28,7 +32,7 @@ graph LR
 
 ---
 
-[continue to next prompt](./task4prompt-v.html)
+[continue to next task](./task4-v.html)
 
 <!-- Required scripts for MermaidAccess -->
 <script src="https://combinatronics.com/mermaid-js/mermaid/release/8.8.4/dist/mermaid.min.js"></script>
@@ -37,4 +41,3 @@ graph LR
 <script>
 mermaidAccess.go(mermaidAccess.viewerMode, mermaidAccess.displayAccessibleOnly)
 </script>
-    

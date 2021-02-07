@@ -1,6 +1,10 @@
-# Task 8
-## Airports graph #8
+# task 8
 
+## There is not a direct flight from Delta to Romeo. Find one way of getting from Delta to Romeo with connecting flights.
+
+---
+
+## Airports graph #8
 <div></div>
 <div class="mermaid-access">
 graph LR
@@ -37,4 +41,3 @@ graph LR
 <script>
 mermaidAccess.go(mermaidAccess.textMode, mermaidAccess.displayAccessibleOnly)
 </script>
-    

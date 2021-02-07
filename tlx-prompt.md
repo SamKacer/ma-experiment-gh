@@ -16,3 +16,7 @@ Please rate the following criteria on a scale from 1 to 20.
 ---
 
 Thank you. You have completed this stage of the experiment.
+
+## [Viewer stage](./landing-v.html)
+
+## [Text stage](./landing-t.html)
