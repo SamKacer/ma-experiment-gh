@@ -8,26 +8,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Alfa -- 8 hours --> Golf
-  Delta -- 10 hours --> Quebec
-  Delta -- 8 hours --> November
-  Golf -- 10 hours --> November
-  Golf -- 6 hours --> Delta
-  Golf -- 8 hours --> Alfa
-  Kilo -- 11 hours --> November
-  November -- 10 hours --> Whiskey
-  November -- 11 hours --> Kilo
-  November -- 3 hours --> Yankee
-  November -- 8 hours --> Delta
-  Quebec -- 10 hours --> Delta
-  Quebec -- 5 hours --> Whiskey
-  Quebec -- 9 hours --> Yankee
-  Whiskey -- 10 hours --> November
-  Whiskey -- 5 hours --> Quebec
-  Yankee -- 10 hours --> Kilo
-  Yankee -- 11 hours --> Delta
-  Yankee -- 3 hours --> November
-  Yankee -- 9 hours --> Quebec
+  Charlie -- 2 hours --> Whiskey
+  Charlie -- 5 hours --> Quebec
+  Delta -- 9 hours --> Echo
+  Echo -- 9 hours --> Delta
+  Echo -- 9 hours --> Golf
+  Golf -- 10 hours --> Uniform
+  Golf -- 9 hours --> Echo
+  India -- 11 hours --> X-ray
+  Lima -- 6 hours --> Juliett
+  Sierra -- 1 hours --> Uniform
+  Sierra -- 3 hours --> Charlie
+  Sierra -- 3 hours --> Whiskey
+  Uniform -- 1 hours --> Sierra
+  Uniform -- 6 hours --> Whiskey
+  Uniform -- 8 hours --> X-ray
+  Whiskey -- 11 hours --> Quebec
+  Whiskey -- 2 hours --> Charlie
+  Whiskey -- 3 hours --> Sierra
+  Whiskey -- 6 hours --> Uniform
+  X-ray -- 11 hours --> India
 </div>
 
 ---

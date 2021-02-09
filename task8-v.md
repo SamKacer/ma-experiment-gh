@@ -1,6 +1,6 @@
 # task 8
 
-## There is not a direct flight from Delta to Oscar. Find one way of getting from Delta to Oscar with connecting flights.
+## There is not a direct flight from Foxtrot to Bravo. Find one way of getting from Foxtrot to Bravo with connecting flights.
 
 ---
 
@@ -8,26 +8,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Alfa -- 4 hours --> Delta
-  Alfa -- 6 hours --> Uniform
-  Bravo -- 1 hours --> Uniform
-  Bravo -- 6 hours --> Sierra
-  Delta -- 3 hours --> Yankee
-  Delta -- 4 hours --> Alfa
-  Delta -- 6 hours --> Sierra
-  Oscar -- 6 hours --> Sierra
-  Oscar -- 7 hours --> Uniform
-  Quebec -- 1 hours --> Yankee
-  Quebec -- 10 hours --> Alfa
-  Sierra -- 11 hours --> Uniform
-  Sierra -- 6 hours --> Delta
-  Sierra -- 6 hours --> Oscar
-  Uniform -- 11 hours --> Sierra
-  Uniform -- 6 hours --> Yankee
-  Uniform -- 7 hours --> Oscar
-  Yankee -- 3 hours --> Delta
-  Yankee -- 6 hours --> Oscar
-  Yankee -- 6 hours --> Uniform
+  Bravo -- 3 hours --> Papa
+  Bravo -- 7 hours --> Delta
+  Delta -- 1 hours --> Mike
+  Delta -- 7 hours --> Bravo
+  Foxtrot -- 1 hours --> November
+  Foxtrot -- 10 hours --> Oscar
+  Foxtrot -- 6 hours --> Golf
+  Foxtrot -- 8 hours --> Mike
+  Golf -- 11 hours --> Quebec
+  Golf -- 6 hours --> Foxtrot
+  Kilo -- 1 hours --> Oscar
+  Mike -- 1 hours --> Delta
+  Mike -- 8 hours --> Foxtrot
+  November -- 9 hours --> Oscar
+  Oscar -- 1 hours --> Kilo
+  Oscar -- 10 hours --> Foxtrot
+  Papa -- 10 hours --> Sierra
+  Sierra -- 10 hours --> Papa
+  Yankee -- 11 hours --> Bravo
+  Yankee -- 7 hours --> November
 </div>
 
 ---

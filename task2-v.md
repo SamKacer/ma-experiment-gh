@@ -1,6 +1,6 @@
 # task 2
 
-## How many incoming flights does Yankee have?
+## How many incoming flights does Lima have?
 
 ---
 
@@ -8,26 +8,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Delta -- 6 hours --> Zulu
-  Delta -- 7 hours --> Kilo
-  Golf -- 5 hours --> Quebec
-  Golf -- 6 hours --> Kilo
-  Kilo -- 6 hours --> Golf
-  Kilo -- 7 hours --> Quebec
-  Kilo -- 8 hours --> Delta
-  November -- 10 hours --> Uniform
-  November -- 3 hours --> Quebec
-  November -- 4 hours --> Yankee
-  Quebec -- 3 hours --> November
-  Quebec -- 5 hours --> Golf
-  Quebec -- 6 hours --> Yankee
-  Quebec -- 7 hours --> Kilo
-  Quebec -- 8 hours --> Zulu
-  Uniform -- 10 hours --> November
-  Uniform -- 5 hours --> Yankee
-  Yankee -- 5 hours --> Uniform
-  Yankee -- 6 hours --> Quebec
-  Zulu -- 8 hours --> Quebec
+  Alfa -- 6 hours --> Whiskey
+  Alfa -- 7 hours --> Juliett
+  Bravo -- 11 hours --> X-ray
+  India -- 7 hours --> Alfa
+  India -- 7 hours --> Romeo
+  Juliett -- 4 hours --> November
+  Juliett -- 7 hours --> Alfa
+  Lima -- 4 hours --> Mike
+  Lima -- 6 hours --> Romeo
+  Mike -- 2 hours --> India
+  Mike -- 3 hours --> Romeo
+  Mike -- 4 hours --> Lima
+  Mike -- 5 hours --> Alfa
+  November -- 4 hours --> Juliett
+  Romeo -- 3 hours --> Mike
+  Romeo -- 6 hours --> Lima
+  Sierra -- 5 hours --> Tango
+  Tango -- 5 hours --> Sierra
+  Whiskey -- 6 hours --> Alfa
+  X-ray -- 11 hours --> Bravo
 </div>
 
 ---

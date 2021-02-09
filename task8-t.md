@@ -1,6 +1,6 @@
 # task 8
 
-## There is not a direct flight from Delta to Romeo. Find one way of getting from Delta to Romeo with connecting flights.
+## There is not a direct flight from Quebec to Yankee. Find one way of getting from Quebec to Yankee with connecting flights.
 
 ---
 
@@ -8,26 +8,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Delta -- 1 hours --> Juliett
-  Delta -- 5 hours --> Tango
-  Delta -- 8 hours --> Echo
-  Echo -- 11 hours --> Mike
-  Echo -- 6 hours --> Tango
-  Echo -- 8 hours --> Delta
-  Golf -- 9 hours --> Uniform
-  Juliett -- 1 hours --> Delta
-  Juliett -- 2 hours --> Romeo
-  Juliett -- 7 hours --> Uniform
-  Mike -- 10 hours --> Juliett
-  Mike -- 11 hours --> Echo
-  Mike -- 4 hours --> Romeo
-  Mike -- 7 hours --> Tango
-  Romeo -- 4 hours --> Mike
-  Tango -- 6 hours --> Echo
-  Tango -- 7 hours --> Mike
-  Uniform -- 3 hours --> Tango
-  Uniform -- 7 hours --> Juliett
-  Uniform -- 9 hours --> Golf
+  Bravo -- 4 hours --> X-ray
+  Bravo -- 7 hours --> Charlie
+  Charlie -- 3 hours --> Papa
+  Foxtrot -- 3 hours --> Yankee
+  Foxtrot -- 5 hours --> Papa
+  Lima -- 10 hours --> Victor
+  Lima -- 2 hours --> November
+  Lima -- 8 hours --> X-ray
+  November -- 2 hours --> Lima
+  November -- 6 hours --> Quebec
+  Papa -- 3 hours --> Charlie
+  Papa -- 5 hours --> Foxtrot
+  Quebec -- 4 hours --> Papa
+  Sierra -- 1 hours --> Yankee
+  Victor -- 10 hours --> Lima
+  Victor -- 5 hours --> X-ray
+  Victor -- 7 hours --> Bravo
+  Whiskey -- 7 hours --> Sierra
+  X-ray -- 4 hours --> Bravo
+  Yankee -- 3 hours --> Foxtrot
 </div>
 
 ---

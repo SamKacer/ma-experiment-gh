@@ -8,26 +8,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Alfa -- 2 hours --> Hotel
-  Alfa -- 2 hours --> Mike
-  Alfa -- 5 hours --> Charlie
-  Alfa -- 8 hours --> Lima
-  Charlie -- 5 hours --> Alfa
-  Charlie -- 8 hours --> Lima
-  Echo -- 4 hours --> Lima
-  Hotel -- 2 hours --> Alfa
-  Hotel -- 7 hours --> Mike
-  Hotel -- 8 hours --> Lima
-  Lima -- 4 hours --> Echo
-  Lima -- 8 hours --> Alfa
-  Lima -- 8 hours --> Charlie
-  Lima -- 8 hours --> Hotel
-  Mike -- 2 hours --> Alfa
-  Oscar -- 3 hours --> Charlie
-  Oscar -- 7 hours --> Echo
-  Sierra -- 11 hours --> Lima
-  Sierra -- 2 hours --> Hotel
-  Sierra -- 5 hours --> Echo
+  Alfa -- 7 hours --> Whiskey
+  Charlie -- 6 hours --> X-ray
+  Golf -- 7 hours --> Uniform
+  Hotel -- 1 hours --> Uniform
+  Hotel -- 4 hours --> Kilo
+  Kilo -- 4 hours --> Hotel
+  Lima -- 5 hours --> Yankee
+  Mike -- 3 hours --> Golf
+  Mike -- 7 hours --> Victor
+  Uniform -- 1 hours --> Hotel
+  Uniform -- 10 hours --> Whiskey
+  Uniform -- 7 hours --> Golf
+  Uniform -- 7 hours --> Victor
+  Uniform -- 7 hours --> Yankee
+  Victor -- 7 hours --> Uniform
+  Whiskey -- 10 hours --> Uniform
+  Whiskey -- 3 hours --> Golf
+  Whiskey -- 7 hours --> Alfa
+  Yankee -- 10 hours --> Hotel
+  Yankee -- 7 hours --> Uniform
 </div>
 
 ---

@@ -8,26 +8,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Charlie -- 2 hours --> Tango
-  Charlie -- 4 hours --> Romeo
-  Juliett -- 10 hours --> Kilo
-  Juliett -- 9 hours --> Tango
-  Kilo -- 10 hours --> Juliett
-  Kilo -- 3 hours --> Romeo
-  Kilo -- 8 hours --> Papa
-  Papa -- 11 hours --> Tango
-  Papa -- 2 hours --> Uniform
-  Papa -- 8 hours --> Charlie
-  Papa -- 8 hours --> Kilo
-  Romeo -- 11 hours --> Papa
-  Romeo -- 2 hours --> Tango
-  Romeo -- 3 hours --> Kilo
-  Romeo -- 4 hours --> Charlie
-  Romeo -- 5 hours --> Juliett
-  Tango -- 11 hours --> Papa
-  Tango -- 2 hours --> Charlie
-  Tango -- 9 hours --> Juliett
-  Whiskey -- 7 hours --> Kilo
+  Bravo -- 8 hours --> Zulu
+  Charlie -- 7 hours --> Uniform
+  Echo -- 7 hours --> Romeo
+  Echo -- 8 hours --> Lima
+  Golf -- 1 hours --> India
+  Golf -- 4 hours --> Papa
+  Hotel -- 1 hours --> Golf
+  Hotel -- 2 hours --> Zulu
+  India -- 1 hours --> Golf
+  India -- 1 hours --> Romeo
+  India -- 2 hours --> Echo
+  India -- 8 hours --> Tango
+  Lima -- 3 hours --> Echo
+  Papa -- 4 hours --> Golf
+  Papa -- 4 hours --> India
+  Papa -- 8 hours --> Tango
+  Romeo -- 11 hours --> Echo
+  Tango -- 8 hours --> Papa
+  Uniform -- 3 hours --> Hotel
+  Uniform -- 7 hours --> Charlie
 </div>
 
 ---

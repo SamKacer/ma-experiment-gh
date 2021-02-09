@@ -1,6 +1,6 @@
 # task 1
 
-## How many outgoing flights does Lima have?
+## How many outgoing flights does Tango have?
 
 ---
 
@@ -8,26 +8,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Bravo -- 10 hours --> Lima
-  Bravo -- 10 hours --> Quebec
-  Charlie -- 6 hours --> Quebec
-  Charlie -- 7 hours --> Echo
-  Echo -- 1 hours --> Sierra
-  Echo -- 11 hours --> Foxtrot
+  Bravo -- 11 hours --> Delta
+  Bravo -- 5 hours --> Mike
+  Bravo -- 7 hours --> Quebec
+  Charlie -- 11 hours --> Lima
+  Charlie -- 9 hours --> Foxtrot
+  Delta -- 1 hours --> Quebec
+  Delta -- 11 hours --> Bravo
+  Delta -- 3 hours --> Lima
+  Delta -- 9 hours --> Romeo
   Echo -- 11 hours --> Lima
-  Echo -- 3 hours --> Bravo
-  Echo -- 3 hours --> Tango
-  Foxtrot -- 1 hours --> Tango
-  Foxtrot -- 7 hours --> Echo
-  Lima -- 11 hours --> Bravo
+  Echo -- 11 hours --> Whiskey
+  Foxtrot -- 4 hours --> Sierra
+  Foxtrot -- 6 hours --> Lima
   Lima -- 11 hours --> Echo
-  Lima -- 2 hours --> Tango
-  Quebec -- 10 hours --> Bravo
-  Quebec -- 6 hours --> Charlie
-  Sierra -- 1 hours --> Echo
-  Tango -- 1 hours --> Foxtrot
-  Tango -- 2 hours --> Lima
-  Tango -- 3 hours --> Echo
+  Lima -- 3 hours --> Delta
+  Mike -- 6 hours --> Sierra
+  Romeo -- 7 hours --> Lima
+  Sierra -- 4 hours --> Foxtrot
+  Sierra -- 6 hours --> Mike
+  Tango -- 6 hours --> Mike
 </div>
 
 ---

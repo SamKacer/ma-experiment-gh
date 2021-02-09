@@ -8,26 +8,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Charlie -- 2 hours --> Lima
-  Charlie -- 2 hours --> Mike
-  Foxtrot -- 5 hours --> Delta
-  Foxtrot -- 7 hours --> Charlie
-  Foxtrot -- 9 hours --> Tango
-  Lima -- 11 hours --> Foxtrot
-  Lima -- 2 hours --> Charlie
-  Lima -- 2 hours --> Tango
-  Lima -- 8 hours --> Romeo
-  Mike -- 10 hours --> Charlie
-  Mike -- 6 hours --> Delta
-  Mike -- 9 hours --> Romeo
-  Romeo -- 3 hours --> Delta
-  Romeo -- 8 hours --> Tango
-  Romeo -- 9 hours --> Mike
-  Tango -- 1 hours --> Echo
-  Tango -- 2 hours --> Lima
-  Tango -- 3 hours --> Delta
-  Tango -- 8 hours --> Romeo
-  Tango -- 9 hours --> Foxtrot
+  Bravo -- 4 hours --> Hotel
+  Bravo -- 8 hours --> Juliett
+  Charlie -- 11 hours --> Lima
+  Charlie -- 6 hours --> November
+  Charlie -- 6 hours --> Uniform
+  Hotel -- 6 hours --> Quebec
+  India -- 1 hours --> Charlie
+  Juliett -- 6 hours --> Quebec
+  Juliett -- 7 hours --> India
+  Lima -- 11 hours --> Charlie
+  Lima -- 2 hours --> Uniform
+  Lima -- 6 hours --> November
+  November -- 6 hours --> Charlie
+  November -- 6 hours --> Lima
+  Oscar -- 10 hours --> Lima
+  Oscar -- 10 hours --> Quebec
+  Oscar -- 4 hours --> Victor
+  Uniform -- 3 hours --> India
+  Victor -- 11 hours --> Delta
+  Victor -- 2 hours --> Juliett
 </div>
 
 ---

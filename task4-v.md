@@ -8,26 +8,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Echo -- 1 hours --> Golf
-  Echo -- 11 hours --> Yankee
-  Echo -- 6 hours --> X-ray
-  Echo -- 8 hours --> Mike
-  Golf -- 1 hours --> Echo
-  Mike -- 2 hours --> Romeo
-  Mike -- 4 hours --> X-ray
-  Mike -- 6 hours --> Papa
-  Mike -- 8 hours --> Echo
-  Papa -- 5 hours --> X-ray
-  Papa -- 5 hours --> Yankee
-  Romeo -- 2 hours --> Mike
-  Romeo -- 2 hours --> Uniform
-  Romeo -- 2 hours --> Yankee
-  Uniform -- 10 hours --> X-ray
-  Uniform -- 2 hours --> Romeo
-  X-ray -- 10 hours --> Uniform
-  X-ray -- 5 hours --> Papa
-  X-ray -- 6 hours --> Echo
-  Yankee -- 5 hours --> Papa
+  Charlie -- 7 hours --> X-ray
+  Delta -- 4 hours --> Lima
+  Golf -- 6 hours --> Juliett
+  Juliett -- 10 hours --> Tango
+  Juliett -- 4 hours --> Lima
+  Juliett -- 6 hours --> Golf
+  Juliett -- 7 hours --> November
+  Kilo -- 3 hours --> Papa
+  Kilo -- 7 hours --> Tango
+  Lima -- 4 hours --> Delta
+  November -- 5 hours --> Tango
+  November -- 7 hours --> Juliett
+  Papa -- 10 hours --> Victor
+  Tango -- 10 hours --> Juliett
+  Tango -- 5 hours --> November
+  Tango -- 8 hours --> Whiskey
+  Victor -- 6 hours --> Golf
+  Whiskey -- 8 hours --> Tango
+  X-ray -- 4 hours --> Papa
+  X-ray -- 7 hours --> Charlie
 </div>
 
 ---

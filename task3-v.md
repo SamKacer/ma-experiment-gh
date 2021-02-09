@@ -1,6 +1,6 @@
 # task 3
 
-## How many direct flights that take 7 hours are there?
+## How many direct flights that take 9 hours are there?
 
 ---
 
@@ -8,26 +8,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Delta -- 10 hours --> Zulu
-  Delta -- 2 hours --> November
-  Delta -- 2 hours --> Romeo
-  Delta -- 7 hours --> Uniform
-  Lima -- 7 hours --> Delta
-  Lima -- 9 hours --> Uniform
-  Mike -- 11 hours --> Romeo
-  Mike -- 6 hours --> Uniform
-  November -- 9 hours --> Uniform
-  Romeo -- 11 hours --> Mike
-  Romeo -- 3 hours --> Delta
-  Romeo -- 3 hours --> Zulu
-  Uniform -- 6 hours --> Mike
-  Uniform -- 6 hours --> Yankee
-  Uniform -- 9 hours --> November
-  Yankee -- 10 hours --> Zulu
-  Yankee -- 6 hours --> November
-  Yankee -- 6 hours --> Uniform
-  Zulu -- 2 hours --> Romeo
-  Zulu -- 6 hours --> Yankee
+  Alfa -- 11 hours --> Kilo
+  Alfa -- 9 hours --> Whiskey
+  Echo -- 7 hours --> Uniform
+  Foxtrot -- 11 hours --> Kilo
+  Foxtrot -- 6 hours --> Mike
+  Foxtrot -- 7 hours --> Lima
+  Kilo -- 10 hours --> Sierra
+  Kilo -- 11 hours --> Alfa
+  Kilo -- 11 hours --> Foxtrot
+  Kilo -- 9 hours --> Lima
+  Lima -- 2 hours --> Quebec
+  Lima -- 9 hours --> Kilo
+  Mike -- 10 hours --> Sierra
+  Mike -- 6 hours --> Foxtrot
+  Quebec -- 2 hours --> Lima
+  Quebec -- 7 hours --> Sierra
+  Sierra -- 10 hours --> Mike
+  Sierra -- 7 hours --> Quebec
+  Whiskey -- 9 hours --> Alfa
+  X-ray -- 4 hours --> Tango
 </div>
 
 ---

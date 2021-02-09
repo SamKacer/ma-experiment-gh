@@ -1,6 +1,6 @@
 # task 3
 
-## How many direct flights that take 7 hours are there?
+## How many direct flights that take 2 hours are there?
 
 ---
 
@@ -8,26 +8,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Charlie -- 1 hours --> Foxtrot
-  Charlie -- 11 hours --> Whiskey
-  Foxtrot -- 1 hours --> Charlie
-  Foxtrot -- 5 hours --> Yankee
-  Foxtrot -- 6 hours --> Romeo
-  Foxtrot -- 9 hours --> Hotel
-  Hotel -- 11 hours --> Yankee
-  Hotel -- 9 hours --> Foxtrot
-  Quebec -- 5 hours --> Yankee
-  Romeo -- 1 hours --> Foxtrot
-  Romeo -- 1 hours --> Sierra
-  Sierra -- 1 hours --> Hotel
-  Sierra -- 1 hours --> Romeo
-  Sierra -- 11 hours --> Charlie
-  Sierra -- 8 hours --> Whiskey
-  Whiskey -- 11 hours --> Charlie
-  Whiskey -- 7 hours --> Quebec
-  Yankee -- 11 hours --> Hotel
-  Yankee -- 5 hours --> Foxtrot
-  Yankee -- 5 hours --> Quebec
+  Alfa -- 1 hours --> Kilo
+  Delta -- 2 hours --> Lima
+  Delta -- 7 hours --> Victor
+  Foxtrot -- 2 hours --> Golf
+  Golf -- 2 hours --> Foxtrot
+  Golf -- 3 hours --> Whiskey
+  Golf -- 5 hours --> Romeo
+  Golf -- 9 hours --> Papa
+  Kilo -- 1 hours --> Alfa
+  Kilo -- 1 hours --> Papa
+  Kilo -- 1 hours --> Romeo
+  Kilo -- 2 hours --> Whiskey
+  Lima -- 2 hours --> Delta
+  Lima -- 7 hours --> India
+  Papa -- 1 hours --> Kilo
+  Papa -- 10 hours --> Delta
+  Papa -- 2 hours --> Whiskey
+  Romeo -- 6 hours --> Foxtrot
+  Sierra -- 10 hours --> Foxtrot
+  Victor -- 3 hours --> Whiskey
 </div>
 
 ---

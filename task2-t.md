@@ -1,6 +1,6 @@
 # task 2
 
-## How many incoming flights does November have?
+## How many incoming flights does Juliett have?
 
 ---
 
@@ -8,26 +8,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Delta -- 1 hours --> X-ray
-  Delta -- 11 hours --> Oscar
-  Delta -- 6 hours --> Hotel
-  Delta -- 9 hours --> Whiskey
-  Hotel -- 6 hours --> Delta
-  Hotel -- 8 hours --> Juliett
-  Juliett -- 10 hours --> Whiskey
-  November -- 6 hours --> Delta
-  Oscar -- 11 hours --> Delta
-  Oscar -- 4 hours --> November
-  Oscar -- 5 hours --> Sierra
-  Oscar -- 6 hours --> X-ray
-  Oscar -- 8 hours --> Hotel
-  Sierra -- 10 hours --> Oscar
-  Sierra -- 8 hours --> Juliett
-  Whiskey -- 6 hours --> November
-  Whiskey -- 7 hours --> X-ray
-  Whiskey -- 9 hours --> Delta
-  X-ray -- 1 hours --> Delta
-  X-ray -- 2 hours --> Sierra
+  Charlie -- 1 hours --> Zulu
+  Hotel -- 10 hours --> Papa
+  Juliett -- 2 hours --> Zulu
+  Juliett -- 9 hours --> Uniform
+  Lima -- 2 hours --> Hotel
+  Mike -- 6 hours --> Lima
+  Mike -- 6 hours --> November
+  November -- 5 hours --> Hotel
+  November -- 7 hours --> Uniform
+  Oscar -- 11 hours --> X-ray
+  Oscar -- 8 hours --> Charlie
+  Papa -- 3 hours --> Mike
+  Sierra -- 9 hours --> X-ray
+  Uniform -- 7 hours --> Lima
+  Uniform -- 9 hours --> Juliett
+  X-ray -- 1 hours --> Charlie
+  X-ray -- 11 hours --> Oscar
+  X-ray -- 9 hours --> Sierra
+  Zulu -- 1 hours --> Charlie
+  Zulu -- 2 hours --> Juliett
 </div>
 
 ---

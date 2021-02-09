@@ -8,26 +8,26 @@
 <div></div>
 <div class="mermaid-access">
 graph LR
-  Charlie -- 6 hours --> Quebec
-  Charlie -- 7 hours --> India
-  Hotel -- 11 hours --> Yankee
-  Hotel -- 2 hours --> Tango
-  Hotel -- 4 hours --> Golf
-  India -- 1 hours --> Quebec
-  India -- 2 hours --> Lima
-  India -- 3 hours --> Golf
-  India -- 7 hours --> Charlie
-  Lima -- 1 hours --> Charlie
-  Lima -- 1 hours --> Tango
-  Lima -- 11 hours --> Yankee
-  Lima -- 2 hours --> India
-  Lima -- 7 hours --> Golf
-  Quebec -- 1 hours --> India
-  Quebec -- 2 hours --> Lima
-  Quebec -- 2 hours --> Yankee
-  Quebec -- 6 hours --> Charlie
-  Quebec -- 6 hours --> Hotel
-  Tango -- 2 hours --> Hotel
+  Echo -- 8 hours --> Golf
+  Golf -- 11 hours --> Sierra
+  Golf -- 11 hours --> Yankee
+  Golf -- 8 hours --> Echo
+  Golf -- 9 hours --> Tango
+  India -- 10 hours --> Echo
+  India -- 9 hours --> Mike
+  Kilo -- 3 hours --> Yankee
+  Kilo -- 4 hours --> Oscar
+  Mike -- 5 hours --> Delta
+  Mike -- 9 hours --> India
+  Oscar -- 4 hours --> Delta
+  Oscar -- 4 hours --> Kilo
+  Quebec -- 8 hours --> Alfa
+  Tango -- 11 hours --> Yankee
+  Tango -- 9 hours --> Golf
+  Yankee -- 11 hours --> Golf
+  Yankee -- 11 hours --> Tango
+  Yankee -- 3 hours --> Alfa
+  Yankee -- 3 hours --> Kilo
 </div>
 
 ---
